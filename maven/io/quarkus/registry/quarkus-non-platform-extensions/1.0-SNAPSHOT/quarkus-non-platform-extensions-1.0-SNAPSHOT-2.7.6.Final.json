@@ -460,10 +460,11 @@
       "keywords" : [ "jdbc-sqlite", "jdbc", "sqlite" ],
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.9.1.Final",
+      "description" : "Connect to the Sqlite database via JDBC/DataSource/Hibernate",
+      "built-with-quarkus-core" : "2.10.0.CR1",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:1.0.0"
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:1.0.1"
   }, {
     "name" : "Datadog Opentracing",
     "description" : "Support and activate the Datadog opentracing tracer",
