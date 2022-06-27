@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.0.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.0.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.5.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.5.Final",
   "extensions" : [ {
     "name" : "Cucumber",
     "description" : "Run tests using Cucumber",
@@ -438,10 +438,10 @@
       "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
       "categories" : [ "rest" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.9.2.Final",
+      "built-with-quarkus-core" : "2.10.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-rest-client-jackson", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.7.0"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.8.0"
   }, {
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -670,10 +670,10 @@
       "guide" : "https://github-api.kohsuke.org/",
       "categories" : [ "business-automation" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.8.1.Final",
+      "built-with-quarkus-core" : "2.10.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.306.0"
+    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.307.0"
   }, {
     "name" : "Quarkus - Operator SDK - Bundle Generator",
     "description" : "Bundle Generation for Java Operator SDK operators",
