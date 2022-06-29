@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.5.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.5.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.3.Final",
   "extensions" : [ {
     "name" : "Cucumber",
     "description" : "Run tests using Cucumber",
@@ -23,7 +23,7 @@
       "built-with-quarkus-core" : "2.10.0.Final",
       "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.1.1"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.2.0"
   }, {
     "name" : "Datadog Opentracing",
     "description" : "Support and activate the Datadog opentracing tracer",
@@ -146,7 +146,7 @@
       "built-with-quarkus-core" : "2.10.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.1.1"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.2.0"
   }, {
     "name" : "Logging Sentry",
     "description" : "Use Sentry, a self-hosted or cloud-based error monitoring solution",
