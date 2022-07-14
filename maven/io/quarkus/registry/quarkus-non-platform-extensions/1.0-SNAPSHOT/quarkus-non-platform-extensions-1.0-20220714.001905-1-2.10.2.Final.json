@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.2.Final",
   "extensions" : [ {
     "name" : "Quarkus - Helm",
     "description" : "Quarkus extension for Helm",
@@ -425,10 +425,10 @@
       "categories" : [ "data" ],
       "status" : "preview",
       "description" : "Connect to the Sqlite database via JDBC/DataSource/Hibernate",
-      "built-with-quarkus-core" : "2.10.0.CR1",
+      "built-with-quarkus-core" : "2.11.0.CR1",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:1.0.1"
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:1.0.2"
   }, {
     "name" : "JGraphT",
     "description" : "JGraphT - a Java library of graph theory data structures and algorithms",
