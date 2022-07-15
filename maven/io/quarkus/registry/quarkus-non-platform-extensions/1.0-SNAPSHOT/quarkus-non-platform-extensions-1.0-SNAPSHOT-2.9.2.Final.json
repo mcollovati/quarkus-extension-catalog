@@ -244,7 +244,7 @@
       "built-with-quarkus-core" : "2.10.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.12.1"
+    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.13.0"
   }, {
     "name" : "XML Security",
     "description" : "Provides implementation of the primary security standards for XML",
