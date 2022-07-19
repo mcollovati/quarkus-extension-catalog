@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "Quarkus - Helm",
     "description" : "Quarkus extension for Helm",
@@ -489,13 +489,13 @@
       "keywords" : [ "jackson-jq", "jackson", "jq" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.6.0.Final",
+      "built-with-quarkus-core" : "2.10.2.Final",
       "capabilities" : {
         "provides" : [ "io.quarkiverse.jackson.jq" ]
       },
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jackson-jq:quarkus-jackson-jq::jar:1.0.1"
+    "artifact" : "io.quarkiverse.jackson-jq:quarkus-jackson-jq::jar:1.1.0"
   }, {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
