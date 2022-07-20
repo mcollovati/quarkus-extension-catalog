@@ -195,7 +195,7 @@
       "built-with-quarkus-core" : "2.2.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.unleash:quarkus-unleash::jar:0.3.0"
+    "artifact" : "io.quarkiverse.unleash:quarkus-unleash::jar:0.4.0"
   }, {
     "name" : "Univocity Parsers",
     "description" : "Univocity Parsers Extension, which allowing to use univocity dependency in the Quarkus' Eco-System. Example for\n      parsing csv or tsv files, with a really fast, flexible and reliable Java parsers thank to its data binding, consistent interface,\n      a solid framework and a parallel input buffering",
@@ -637,10 +637,10 @@
       "keywords" : [ "helm", "kubernetes", "openshift" ],
       "categories" : [ "cloud" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.8.1.Final",
+      "built-with-quarkus-core" : "2.11.0.CR1",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:0.0.2"
+    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:0.0.3"
   }, {
     "name" : "OpenAPI Generator - REST Client Generator",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -703,10 +703,10 @@
       "categories" : [ "core" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-logging-sentry/dev/index.html",
       "config" : [ "quarkus.log.sentry." ],
-      "built-with-quarkus-core" : "2.10.1.Final",
+      "built-with-quarkus-core" : "2.10.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.2.0"
+    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.2.1"
   }, {
     "name" : "Apache Tika",
     "description" : "Extract data from your documents with Apache Tika",
