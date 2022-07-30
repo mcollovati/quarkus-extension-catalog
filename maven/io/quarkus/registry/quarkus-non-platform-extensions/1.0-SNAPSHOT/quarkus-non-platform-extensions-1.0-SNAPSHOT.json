@@ -218,6 +218,18 @@
     },
     "artifact" : "io.quarkiverse.ngrok:quarkus-ngrok::jar:0.2.0"
   }, {
+    "name" : "Apistax",
+    "description" : "Secure and reliable APIs for your common business needs.",
+    "metadata" : {
+      "keywords" : [ "apistax" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/apistax/dev/",
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.11.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:0.1.1"
+  }, {
     "name" : "MyBatis SQL Mapper",
     "description" : "MyBatis SQL mapper framework for Java",
     "metadata" : {
