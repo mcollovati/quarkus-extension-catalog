@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
@@ -207,6 +207,17 @@
     },
     "artifact" : "io.quarkiverse.univocityparsers:quarkus-univocity-parsers::jar:0.0.1"
   }, {
+    "name" : "JBeret - REST",
+    "description" : "Manage JBeret Batch Applications with REST",
+    "metadata" : {
+      "keywords" : [ "jberet-rest" ],
+      "categories" : [ "rest" ],
+      "status" : "experimental",
+      "built-with-quarkus-core" : "2.6.2.Final",
+      "extension-dependencies" : [ "io.quarkiverse.jberet:quarkus-jberet", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-rest-client-jsonb", "io.quarkus:quarkus-jackson" ]
+    },
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:1.1.0"
+  }, {
     "name" : "Ngrok",
     "description" : "Launch and configure ngrok to connect to the Quarkus application when it starts in dev mode",
     "metadata" : {
@@ -265,18 +276,6 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.doma:quarkus-doma::jar:0.0.7"
-  }, {
-    "name" : "JDBC Driver - Sqlite",
-    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
-    "metadata" : {
-      "keywords" : [ "jdbc-sqlite", "jdbc", "sqlite" ],
-      "categories" : [ "data" ],
-      "status" : "preview",
-      "description" : "Connect to the Sqlite database via JDBC/DataSource/Hibernate",
-      "built-with-quarkus-core" : "2.11.0.CR1",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
-    },
-    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:1.0.2"
   }, {
     "name" : "Quinoa",
     "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, …) alongside other Quarkus services (REST, GraphQL, Security, Events, ...).\n\nLive code the backend and frontend together with close to no configuration. When enabled in development mode, Quinoa will start the UI live coding server provided by the target framework and forward relevant requests to it. In production mode, Quinoa will run the build and process the generated files to serve them at runtime.\n",
@@ -548,16 +547,17 @@
     },
     "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:4.0.0.RC"
   }, {
-    "name" : "JBeret - REST",
-    "description" : "Manage JBeret Batch Applications with REST",
+    "name" : "JDBC Driver - Sqlite",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
     "metadata" : {
-      "keywords" : [ "jberet-rest" ],
-      "categories" : [ "rest" ],
-      "status" : "experimental",
-      "built-with-quarkus-core" : "2.6.2.Final",
-      "extension-dependencies" : [ "io.quarkiverse.jberet:quarkus-jberet", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-rest-client-jsonb", "io.quarkus:quarkus-jackson" ]
+      "keywords" : [ "jdbc-sqlite", "jdbc", "sqlite" ],
+      "categories" : [ "data" ],
+      "status" : "preview",
+      "description" : "Connect to the Sqlite database via JDBC/DataSource/Hibernate",
+      "built-with-quarkus-core" : "2.11.0.CR1",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:1.1.0"
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:1.0.2"
   }, {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
