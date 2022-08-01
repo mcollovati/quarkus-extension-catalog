@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.6.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.6.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
@@ -719,6 +719,18 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.2.1"
+  }, {
+    "name" : "QSON",
+    "description" : "JSON object mapper",
+    "metadata" : {
+      "keywords" : [ "json" ],
+      "guide" : "https://quarkus.io/guides/qson",
+      "categories" : [ "serialization" ],
+      "status" : "experimental",
+      "built-with-quarkus-core" : "2.4.2.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
+    },
+    "artifact" : "io.quarkus.qson:quarkus-qson::jar:1.1.1.Final"
   }, {
     "name" : "Apache Tika",
     "description" : "Extract data from your documents with Apache Tika",

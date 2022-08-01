@@ -720,6 +720,18 @@
     },
     "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.2.1"
   }, {
+    "name" : "QSON",
+    "description" : "JSON object mapper",
+    "metadata" : {
+      "keywords" : [ "json" ],
+      "guide" : "https://quarkus.io/guides/qson",
+      "categories" : [ "serialization" ],
+      "status" : "experimental",
+      "built-with-quarkus-core" : "2.4.2.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
+    },
+    "artifact" : "io.quarkus.qson:quarkus-qson::jar:1.1.1.Final"
+  }, {
     "name" : "Apache Tika",
     "description" : "Extract data from your documents with Apache Tika",
     "metadata" : {
