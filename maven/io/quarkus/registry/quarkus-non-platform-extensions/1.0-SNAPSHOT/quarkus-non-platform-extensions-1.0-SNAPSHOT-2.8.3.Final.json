@@ -326,20 +326,6 @@
     },
     "artifact" : "io.quarkiverse.morphia:quarkus-morphia::jar:0.1.0"
   }, {
-    "name" : "Datadog Opentracing",
-    "description" : "Support and activate the Datadog opentracing tracer",
-    "metadata" : {
-      "keywords" : [ "datadog-opentracing", "monitoring", "distributed-tracing" ],
-      "categories" : [ "observability" ],
-      "status" : "experimental",
-      "built-with-quarkus-core" : "2.9.1.Final",
-      "capabilities" : {
-        "provides" : [ "io.quarkus.opentracing" ]
-      },
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
-    },
-    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.6"
-  }, {
     "name" : "MyFaces",
     "description" : "Apache MyFaces Core runtime extension for Quarkus.",
     "metadata" : {
