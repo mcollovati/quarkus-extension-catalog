@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.6.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.6.Final",
   "extensions" : [ {
     "name" : "Logging manager",
     "description" : "Provides you endpoints to visualize and manage the log level of your loggers",
@@ -472,10 +472,10 @@
       "guide" : "https://github-api.kohsuke.org/",
       "categories" : [ "business-automation" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.10.0.Final",
+      "built-with-quarkus-core" : "2.11.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.307.0"
+    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.308.0"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
@@ -562,10 +562,10 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "2.11.1.Final",
+      "built-with-quarkus-core" : "2.11.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.10.2"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.11.0"
   }, {
     "name" : "JGraphT",
     "description" : "JGraphT - a Java library of graph theory data structures and algorithms",
@@ -676,10 +676,10 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "2.11.1.Final",
+      "built-with-quarkus-core" : "2.11.2.Final",
       "extension-dependencies" : [ "io.quarkiverse.githubapp:quarkus-github-app", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app-command-airline::jar:1.10.2"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app-command-airline::jar:1.11.0"
   }, {
     "name" : "Quarkus - Unleash - Runtime",
     "description" : "Unleash is a feature toggle system",
