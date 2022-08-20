@@ -631,6 +631,18 @@
     },
     "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.1.2"
   }, {
+    "name" : "JDBC Driver - Clickhouse",
+    "description" : "Connect to the ClickHouse database via JDBC",
+    "metadata" : {
+      "keywords" : [ "jdbc-clickhouse", "jdbc", "clickhouse" ],
+      "categories" : [ "data" ],
+      "status" : "experimental",
+      "description" : "Connect to the ClickHouse database via JDBC/DataSource",
+      "built-with-quarkus-core" : "2.12.0.CR1",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-clickhouse::jar:0.0.1"
+  }, {
     "name" : "Morphia",
     "description" : "Advanced MongoDB support via Morphia",
     "metadata" : {
