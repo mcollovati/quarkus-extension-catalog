@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.6.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.6.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.0.CR1",
   "extensions" : [ {
     "name" : "Logging manager",
     "description" : "Provides you endpoints to visualize and manage the log level of your loggers",
@@ -483,10 +483,10 @@
       "keywords" : [ "http-connector", "http", "websockets" ],
       "categories" : [ "web", "reactive", "messaging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.7.3.Final",
+      "built-with-quarkus-core" : "2.12.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-reactive-messaging", "io.quarkus:quarkus-mutiny-reactive-streams-operators", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx-http" ]
     },
-    "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:1.0.3"
+    "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:1.0.4"
   }, {
     "name" : "Micrometer registry - Azure Monitor",
     "description" : "Send data gathered by Micrometer to Azure Monitor",
