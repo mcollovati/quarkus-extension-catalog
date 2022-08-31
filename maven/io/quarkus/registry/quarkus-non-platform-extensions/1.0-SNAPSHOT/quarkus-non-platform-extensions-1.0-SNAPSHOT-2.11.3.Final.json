@@ -331,10 +331,10 @@
     "metadata" : {
       "keywords" : [ "opencv", "ai", "computer vision" ],
       "categories" : [ "business-automation" ],
-      "built-with-quarkus-core" : "2.4.2.Final",
+      "built-with-quarkus-core" : "2.12.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.opencv:quarkus-opencv::jar:1.1.0"
+    "artifact" : "io.quarkiverse.opencv:quarkus-opencv::jar:1.1.1"
   }, {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
