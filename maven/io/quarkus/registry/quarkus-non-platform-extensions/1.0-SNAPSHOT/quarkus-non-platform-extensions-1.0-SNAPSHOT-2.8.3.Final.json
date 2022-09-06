@@ -239,6 +239,21 @@
     },
     "artifact" : "io.quarkiverse.jjwtjackson:quarkus-jjwt-jackson::jar:1.0.0"
   }, {
+    "name" : "Zookeeper",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "keywords" : [ "zookeeper" ],
+      "categories" : [ "platform", "microservices" ],
+      "status" : "preview",
+      "config" : [ "quarkus.zookeeper." ],
+      "built-with-quarkus-core" : "2.12.0.Final",
+      "capabilities" : {
+        "provides" : [ "io.quarkus.zookeeper.client" ]
+      },
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.quarkus-zookeeper:quarkus-zookeeper::jar:1.0.1"
+  }, {
     "name" : "Quarkus - Zeebe - Runtime",
     "description" : "Zeebe Camunda cloud BPMN workflow engine",
     "metadata" : {
