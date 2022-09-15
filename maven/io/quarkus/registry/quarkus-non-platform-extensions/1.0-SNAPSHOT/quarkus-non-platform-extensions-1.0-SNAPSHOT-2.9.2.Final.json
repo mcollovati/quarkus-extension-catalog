@@ -762,10 +762,10 @@
       "categories" : [ "kubernetes", "data" ],
       "status" : "stable",
       "description" : "Integrates MinIO Java SDK for Amazon S3 Compatible Cloud Storage",
-      "built-with-quarkus-core" : "2.9.0.Final",
+      "built-with-quarkus-core" : "2.12.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.9.1"
+    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.9.2"
   }, {
     "name" : "Dapr",
     "description" : "Dapr SDK",
