@@ -558,10 +558,10 @@
       "keywords" : [ "helm", "kubernetes", "openshift" ],
       "categories" : [ "cloud" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.11.2.Final",
+      "built-with-quarkus-core" : "2.12.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:0.0.5"
+    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:0.0.6"
   }, {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
