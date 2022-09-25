@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
   "extensions" : [ {
     "name" : "Logging manager",
     "description" : "Provides you endpoints to visualize and manage the log level of your loggers",
@@ -384,10 +384,10 @@
       "status" : "preview",
       "config" : [ "quarkus.jef." ],
       "description" : "Connect to embedded devices over GPIO/SPI/I2C/Serial interfaces",
-      "built-with-quarkus-core" : "2.12.0.Final",
+      "built-with-quarkus-core" : "2.13.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-resteasy-reactive-qute", "io.quarkus:quarkus-resteasy-reactive", "io.quarkus:quarkus-resteasy-reactive-common", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-qute" ]
     },
-    "artifact" : "io.quarkiverse.jef:quarkus-java-embedded-framework::jar:0.0.1"
+    "artifact" : "io.quarkiverse.jef:quarkus-java-embedded-framework::jar:0.0.2"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
