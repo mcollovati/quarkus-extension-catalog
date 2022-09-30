@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
   "extensions" : [ {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
@@ -197,10 +197,10 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-apistax/dev/",
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.11.1.Final",
+      "built-with-quarkus-core" : "2.12.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.0.0"
+    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.2.0"
   }, {
     "name" : "Hibernate Search + Elasticsearch - AWS authentication and request signing",
     "description" : "AWS request signing for Hibernate Search ORM + Elasticsearch",
@@ -656,6 +656,17 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.messaginghub:quarkus-pooled-jms::jar:1.0.2"
+  }, {
+    "name" : "Shardingsphere JDBC Driver",
+    "description" : "The extension provides support for ShardingSphere JDBC.",
+    "metadata" : {
+      "keywords" : [ "shardingsphere-jdbc", "jdbc" ],
+      "categories" : [ "data" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.13.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
+    },
+    "artifact" : "io.quarkiverse.shardingsphere:quarkus-shardingsphere-jdbc::jar:0.0.1"
   }, {
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
