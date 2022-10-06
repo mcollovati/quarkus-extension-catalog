@@ -200,7 +200,7 @@
       "built-with-quarkus-core" : "2.12.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.2.0"
+    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.3.0"
   }, {
     "name" : "Hibernate Search + Elasticsearch - AWS authentication and request signing",
     "description" : "AWS request signing for Hibernate Search ORM + Elasticsearch",
