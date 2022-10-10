@@ -32,10 +32,10 @@
       "keywords" : [ "logging", "json", "formatter" ],
       "categories" : [ "core" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.3.1.Final",
+      "built-with-quarkus-core" : "2.13.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.loggingjson:quarkus-logging-json::jar:1.1.1"
+    "artifact" : "io.quarkiverse.loggingjson:quarkus-logging-json::jar:2.0.0"
   }, {
     "name" : "Quarkus - Helm",
     "description" : "Quarkus extension for Helm",
