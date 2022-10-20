@@ -476,13 +476,13 @@
       "categories" : [ "platform", "microservices" ],
       "status" : "preview",
       "config" : [ "quarkus.zookeeper." ],
-      "built-with-quarkus-core" : "2.12.0.Final",
+      "built-with-quarkus-core" : "2.13.2.Final",
       "capabilities" : {
         "provides" : [ "io.quarkus.zookeeper.client" ]
       },
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.quarkus-zookeeper:quarkus-zookeeper::jar:1.0.1"
+    "artifact" : "io.quarkiverse.quarkus-zookeeper:quarkus-zookeeper::jar:1.0.2"
   }, {
     "name" : "Dapr",
     "description" : "Dapr SDK",
