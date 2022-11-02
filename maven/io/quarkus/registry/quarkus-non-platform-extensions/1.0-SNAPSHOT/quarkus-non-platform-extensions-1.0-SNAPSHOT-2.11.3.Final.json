@@ -537,10 +537,10 @@
       "categories" : [ "data" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "2.13.0.Final",
+      "built-with-quarkus-core" : "2.13.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.6.0"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.6.1"
   }, {
     "name" : "Quarkus Freemarker",
     "description" : "Freemarker support",
@@ -788,7 +788,7 @@
       "built-with-quarkus-core" : "2.13.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.messaginghub:quarkus-pooled-jms::jar:1.0.4"
+    "artifact" : "io.quarkiverse.messaginghub:quarkus-pooled-jms::jar:1.0.5"
   }, {
     "name" : "Microprofile",
     "description" : "Quarkus MicroProfile 4.1 Compatible Implementation",
