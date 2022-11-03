@@ -561,10 +561,10 @@
       "categories" : [ "messaging" ],
       "unlisted" : true,
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.13.3.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha1",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:2.0.0"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:3.0.0.Alpha3"
   }, {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
@@ -738,10 +738,10 @@
       "categories" : [ "messaging" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-artemis/dev/index.html",
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.13.3.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha1",
       "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:2.0.0"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:3.0.0.Alpha3"
   }, {
     "name" : "Logging Sentry",
     "description" : "Use Sentry, a self-hosted or cloud-based error monitoring solution",
@@ -830,6 +830,6 @@
       "built-with-quarkus-core" : "2.13.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-grpc-common", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.zeebe:quarkus-zeebe::jar:0.7.0"
+    "artifact" : "io.quarkiverse.zeebe:quarkus-zeebe::jar:0.7.1"
   } ]
 }
