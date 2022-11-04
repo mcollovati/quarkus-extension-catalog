@@ -830,6 +830,6 @@
       "built-with-quarkus-core" : "2.13.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-grpc-common", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.zeebe:quarkus-zeebe::jar:0.7.1"
+    "artifact" : "io.quarkiverse.zeebe:quarkus-zeebe::jar:0.7.2"
   } ]
 }
