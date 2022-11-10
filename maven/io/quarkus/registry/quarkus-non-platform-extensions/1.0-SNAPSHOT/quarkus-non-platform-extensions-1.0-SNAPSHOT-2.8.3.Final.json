@@ -183,7 +183,7 @@
       "built-with-quarkus-core" : "2.14.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.9.3"
+    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.10.0"
   }, {
     "name" : "Apache Tika",
     "description" : "Extract data from your documents with Apache Tika",
