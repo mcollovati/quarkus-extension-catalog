@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
   "extensions" : [ {
     "name" : "Camunda Platform Engine",
     "description" : "Quarkus Extension for the Camunda Platform Engine",
@@ -183,7 +183,7 @@
       "built-with-quarkus-core" : "2.14.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.10.0"
+    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.10.1"
   }, {
     "name" : "Apache Tika",
     "description" : "Extract data from your documents with Apache Tika",
@@ -537,10 +537,10 @@
       "categories" : [ "data" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "2.13.3.Final",
+      "built-with-quarkus-core" : "2.14.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.6.1"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.7.0"
   }, {
     "name" : "Quarkus Freemarker",
     "description" : "Freemarker support",
