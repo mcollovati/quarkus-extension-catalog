@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
   "extensions" : [ {
     "name" : "Camunda Platform Engine",
     "description" : "Quarkus Extension for the Camunda Platform Engine",
@@ -216,14 +216,16 @@
     "name" : "JBeret - Batch Processing",
     "description" : "Write Batch Applications with JBeret a JSR-352 implementation",
     "metadata" : {
+      "short-name" : "jberet",
       "keywords" : [ "batch", "jberet", "jsr352" ],
-      "guide" : "https://quarkus.io/guides/jberet",
-      "categories" : [ "data" ],
-      "status" : "experimental",
-      "built-with-quarkus-core" : "2.6.2.Final",
+      "guide" : "https://github.com/quarkiverse/quarkus-jberet#readme",
+      "categories" : [ "data", "integration" ],
+      "status" : "stable",
+      "config" : "quarkus.jberet.",
+      "built-with-quarkus-core" : "2.14.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:1.1.0"
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:1.2.0"
   }, {
     "name" : "Micrometer registry - Datadog",
     "description" : "Send metrics to Datadog using the Datadog API",
@@ -451,10 +453,10 @@
       "keywords" : [ "jberet-rest" ],
       "categories" : [ "rest" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.6.2.Final",
+      "built-with-quarkus-core" : "2.14.1.Final",
       "extension-dependencies" : [ "io.quarkiverse.jberet:quarkus-jberet", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-rest-client-jsonb", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:1.1.0"
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:1.2.0"
   }, {
     "name" : "Quarkus - Helm",
     "description" : "Quarkus extension for Helm",
@@ -525,10 +527,10 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "2.13.3.Final",
+      "built-with-quarkus-core" : "2.14.1.Final",
       "extension-dependencies" : [ "io.quarkiverse.githubapp:quarkus-github-app", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app-command-airline::jar:1.15.1"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app-command-airline::jar:1.15.2"
   }, {
     "name" : "Neo4j client",
     "description" : "Connect to Neo4j graph datastore",
@@ -701,10 +703,10 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "2.13.3.Final",
+      "built-with-quarkus-core" : "2.14.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.15.1"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.15.2"
   }, {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
