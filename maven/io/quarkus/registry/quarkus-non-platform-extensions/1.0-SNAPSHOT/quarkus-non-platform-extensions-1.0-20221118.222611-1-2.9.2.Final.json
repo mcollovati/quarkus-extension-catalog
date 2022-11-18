@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Camunda Platform Engine",
     "description" : "Quarkus Extension for the Camunda Platform Engine",
@@ -339,10 +339,10 @@
       "keywords" : [ "prettytime" ],
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.13.2.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha1",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:1.0.1"
+    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:2.0.0.Alpha1"
   }, {
     "name" : "Java Embedded Framework",
     "description" : "Access to embedded devices",
