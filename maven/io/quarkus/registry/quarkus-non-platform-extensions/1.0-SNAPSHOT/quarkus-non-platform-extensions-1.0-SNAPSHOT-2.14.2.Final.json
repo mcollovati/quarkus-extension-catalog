@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.2.Final",
   "extensions" : [ {
     "name" : "An powerful enhanced toolkit of MyBatis for simplify development",
     "description" : "An powerful enhanced toolkit of MyBatis for simplify development",
