@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha1",
   "extensions" : [ {
     "name" : "An powerful enhanced toolkit of MyBatis for simplify development",
     "description" : "An powerful enhanced toolkit of MyBatis for simplify development",
@@ -786,10 +786,11 @@
       "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
       "categories" : [ "rest" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.13.3.Final",
+      "built-with-quarkus-core" : "2.14.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-openapi-generator",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-rest-client-jackson", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.12.0"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:1.0.0"
   }, {
     "name" : "Neo4j client",
     "description" : "Connect to Neo4j graph datastore",
