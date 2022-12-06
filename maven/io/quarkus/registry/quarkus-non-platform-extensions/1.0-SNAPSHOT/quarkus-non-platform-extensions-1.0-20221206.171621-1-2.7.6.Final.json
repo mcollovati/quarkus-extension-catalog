@@ -1,18 +1,19 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.6.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.6.Final",
   "extensions" : [ {
-    "name" : "An powerful enhanced toolkit of MyBatis for simplify development",
-    "description" : "An powerful enhanced toolkit of MyBatis for simplify development",
+    "name" : "MyBatis Plus",
+    "description" : "A powerful enhanced toolkit of MyBatis to simplify development",
     "metadata" : {
       "keywords" : [ "mybatis-plus" ],
-      "guide" : "https://quarkus.io/guides/mybatis-plus",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mybatis/dev/",
       "categories" : [ "data" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.10.0.Final",
+      "built-with-quarkus-core" : "2.14.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-mybatis",
       "extension-dependencies" : [ "io.quarkiverse.mybatis:quarkus-mybatis", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:1.0.4"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:1.0.5"
   }, {
     "name" : "Quarkus - Unleash - Runtime",
     "description" : "Unleash is a feature toggle system",
@@ -214,10 +215,11 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mybatis/dev/index.html",
       "categories" : [ "data" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.10.0.Final",
+      "built-with-quarkus-core" : "2.14.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-mybatis",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:1.0.4"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:1.0.5"
   }, {
     "name" : "Quarkus - Hibernate Types - Runtime",
     "description" : "Hibernate Types",
