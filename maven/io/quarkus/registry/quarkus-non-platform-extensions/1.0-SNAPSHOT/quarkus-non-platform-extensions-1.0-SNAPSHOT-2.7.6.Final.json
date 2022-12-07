@@ -754,10 +754,11 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-dapr/dev/index.html",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.11.2.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-grpc", "io.quarkus:quarkus-grpc-common", "io.quarkus:quarkus-smallrye-stork", "io.quarkus:quarkus-resteasy-jackson", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-jackson" ]
+      "built-with-quarkus-core" : "2.14.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-dapr",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-grpc", "io.quarkus:quarkus-grpc-common", "io.quarkus:quarkus-smallrye-stork", "io.quarkus:quarkus-resteasy-reactive-jackson", "io.quarkus:quarkus-resteasy-reactive", "io.quarkus:quarkus-resteasy-reactive-common", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-resteasy-reactive-jackson-common", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.dapr:quarkus-dapr::jar:1.0.2"
+    "artifact" : "io.quarkiverse.dapr:quarkus-dapr::jar:1.0.3"
   }, {
     "name" : "GitHub App Command Airline",
     "description" : "Add comment-based commands to your GitHub App",
