@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha2:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha2",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.5.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.5.Final",
   "extensions" : [ {
     "name" : "MyBatis Plus",
     "description" : "A powerful enhanced toolkit of MyBatis to simplify development",
@@ -810,6 +810,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:2.0.0"
+  }, {
+    "name" : "Systemd Notify",
+    "description" : "Notify Linux service manager (systemd) about start-up completion and other service status changes",
+    "metadata" : {
+      "keywords" : [ "systemd", "notify", "linux" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/systemd-notify/dev/",
+      "categories" : [ "integration" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.14.3.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-systemd-notify",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:0.1.0"
   }, {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
