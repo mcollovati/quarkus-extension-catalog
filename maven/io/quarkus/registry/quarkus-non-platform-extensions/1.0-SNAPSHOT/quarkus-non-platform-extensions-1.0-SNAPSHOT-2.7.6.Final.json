@@ -694,19 +694,6 @@
     },
     "artifact" : "io.quarkiverse.doma:quarkus-doma::jar:0.0.7"
   }, {
-    "name" : "Systemd Notify",
-    "description" : "Notify Linux service manager (systemd) about start-up completion and other service status changes",
-    "metadata" : {
-      "keywords" : [ "systemd", "notify", "linux" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-systemd-notify/dev/",
-      "categories" : [ "integration" ],
-      "status" : "preview",
-      "built-with-quarkus-core" : "2.15.0.Final",
-      "scm-url" : "https://github.com/quarkiverse/quarkus-systemd-notify",
-      "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
-    },
-    "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:0.2.0"
-  }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
     "metadata" : {

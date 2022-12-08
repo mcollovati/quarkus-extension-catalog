@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "Artemis JMS",
     "description" : "Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
@@ -693,19 +693,6 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.doma:quarkus-doma::jar:0.0.7"
-  }, {
-    "name" : "Systemd Notify",
-    "description" : "Notify Linux service manager (systemd) about start-up completion and other service status changes",
-    "metadata" : {
-      "keywords" : [ "systemd", "notify", "linux" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-systemd-notify/dev/",
-      "categories" : [ "integration" ],
-      "status" : "preview",
-      "built-with-quarkus-core" : "2.15.0.Final",
-      "scm-url" : "https://github.com/quarkiverse/quarkus-systemd-notify",
-      "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
-    },
-    "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:0.2.0"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
