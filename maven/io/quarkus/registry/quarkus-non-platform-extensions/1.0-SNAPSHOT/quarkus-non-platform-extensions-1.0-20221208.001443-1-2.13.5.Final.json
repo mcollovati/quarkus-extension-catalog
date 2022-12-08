@@ -70,10 +70,11 @@
       "keywords" : [ "jsch" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jsch/dev/index.html",
       "categories" : [ "miscellaneous" ],
-      "built-with-quarkus-core" : "2.12.1.Final",
+      "built-with-quarkus-core" : "2.15.0.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-jsch",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.1"
+    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.2"
   }, {
     "name" : "JGraphT",
     "description" : "JGraphT - a Java library of graph theory data structures and algorithms",
@@ -697,14 +698,14 @@
     "description" : "Notify Linux service manager (systemd) about start-up completion and other service status changes",
     "metadata" : {
       "keywords" : [ "systemd", "notify", "linux" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/systemd-notify/dev/",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-systemd-notify/dev/",
       "categories" : [ "integration" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.14.3.Final",
+      "built-with-quarkus-core" : "2.15.0.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-systemd-notify",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:0.1.0"
+    "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:0.2.0"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
