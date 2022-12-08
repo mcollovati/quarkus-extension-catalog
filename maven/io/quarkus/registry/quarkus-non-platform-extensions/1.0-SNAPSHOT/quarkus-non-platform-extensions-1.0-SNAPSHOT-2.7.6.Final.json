@@ -763,11 +763,11 @@
       "categories" : [ "miscellaneous" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jgit/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.14.2.Final",
+      "built-with-quarkus-core" : "2.15.0.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jgit",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.jsch:quarkus-jsch" ]
     },
-    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:2.3.0"
+    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:2.3.1"
   }, {
     "name" : "Hibernate Search + Elasticsearch - AWS authentication and request signing",
     "description" : "AWS request signing for Hibernate Search ORM + Elasticsearch",
