@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha2:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha2",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
   "extensions" : [ {
     "name" : "Artemis JMS",
     "description" : "Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
@@ -174,6 +174,29 @@
     },
     "artifact" : "io.quarkiverse.scala:quarkus-scala3::jar:0.0.1"
   }, {
+    "name" : "Satoken Resteasy",
+    "description" : "Satoken Resteasy ...",
+    "metadata" : {
+      "keywords" : [ "satoken", "authentication" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "config" : [ "sa-token." ],
+      "built-with-quarkus-core" : "2.13.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-resteasy-reactive-jackson", "io.quarkus:quarkus-resteasy-reactive", "io.quarkus:quarkus-resteasy-reactive-common", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-resteasy-reactive-jackson-common", "io.quarkus:quarkus-jackson" ]
+    },
+    "artifact" : "io.quarkiverse.satoken:quarkus-sa-token-resteasy::jar:1.31.1"
+  }, {
+    "name" : "Satoken Sso",
+    "description" : "Satoken Sso Plugin Of Quarkus Satoken",
+    "metadata" : {
+      "keywords" : [ "satoken", "sso" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.13.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.satoken:quarkus-sa-token-sso::jar:1.31.1"
+  }, {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
     "metadata" : {
@@ -267,6 +290,14 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-micrometer", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
     "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-signalfx::jar:2.12.0"
+  }, {
+    "name" : "Quarkus Satoken Dao Alone Redis",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "built-with-quarkus-core" : "2.13.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.satoken:quarkus-sa-token-dao-redis-jackson", "org.redisson:redisson-quarkus-20", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson" ]
+    },
+    "artifact" : "io.quarkiverse.satoken:quarkus-sa-token-dao-alone-redis::jar:1.31.1"
   }, {
     "name" : "JDBC Driver - Sqlite",
     "description" : "Connect to the SQLite database via JDBC",
@@ -433,6 +464,17 @@
     },
     "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:1.0.3"
   }, {
+    "name" : "Satoken Oauth2",
+    "description" : "Satoken Oauth2 Plugin Of Quarkus Satoken",
+    "metadata" : {
+      "keywords" : [ "satoken", "oauth2" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.13.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.satoken:quarkus-sa-token-oauth2::jar:1.31.1"
+  }, {
     "name" : "Neo4j client",
     "description" : "Connect to Neo4j graph datastore",
     "metadata" : {
@@ -584,6 +626,17 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-jsonp" ]
     },
     "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:3.0.2"
+  }, {
+    "name" : "Satoken Context Dubbo",
+    "description" : "Satoken Context Dubbo Plugin Of Quarkus Satoken",
+    "metadata" : {
+      "keywords" : [ "satoken", "satoken-context-dubbo" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.13.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.satoken:quarkus-sa-token-context-dubbo::jar:1.31.1"
   }, {
     "name" : "Logging Logback",
     "description" : "logback.xml support for logback appenders",
@@ -779,6 +832,17 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-elasticsearch-rest-high-level-client", "io.quarkus:quarkus-core", "io.quarkus:quarkus-elasticsearch-rest-client-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-elasticsearch-rest-client", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.quarkus-elasticsearch-reactive:quarkus-elasticsearch-reactive::jar:0.2.0"
+  }, {
+    "name" : "Satoken Dao Redis Jackson",
+    "description" : "Satoken Dao Redis Jackson Plugin Of Quarkus Satoken",
+    "metadata" : {
+      "keywords" : [ "satoken", "satoken-dao-redis-jackson" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.13.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.redisson:redisson-quarkus-20", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson" ]
+    },
+    "artifact" : "io.quarkiverse.satoken:quarkus-sa-token-dao-redis-jackson::jar:1.31.1"
   }, {
     "name" : "Quarkus - Helm",
     "description" : "Quarkus extension for Helm",
