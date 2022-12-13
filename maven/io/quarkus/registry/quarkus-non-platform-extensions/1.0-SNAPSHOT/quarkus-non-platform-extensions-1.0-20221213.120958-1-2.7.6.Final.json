@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.6.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.6.Final",
   "extensions" : [ {
     "name" : "Artemis JMS",
     "description" : "Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
@@ -20,6 +20,19 @@
       "built-with-quarkus-core" : "io.quarkus:quarkus-core:1.11.3.Final"
     },
     "artifact" : "io.quarkiverse.rsocket:quarkus-rsocket::jar:0"
+  }, {
+    "name" : "Quarkus CXF STS",
+    "description" : "The CXF Security Token Service (STS) implementation",
+    "metadata" : {
+      "keywords" : [ "cxf", "jaxws", "jax-ws", "services", "soap", "ws", "sts", "trust", "ws-trust" ],
+      "categories" : [ "integration" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
+      "status" : "stable",
+      "built-with-quarkus-core" : "2.15.0.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
+      "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
+    },
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:1.7.1"
   }, {
     "name" : "Shardingsphere JDBC Driver",
     "description" : "The extension provides support for ShardingSphere JDBC.",
@@ -63,6 +76,20 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core::jar" ]
     },
     "artifact" : "io.quarkiverse.jjwtjackson:quarkus-jjwt-jackson::jar:1.0.0"
+  }, {
+    "name" : "Quarkus CXF Transports HTTP Async",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "keywords" : [ "soap", "cxf", "services" ],
+      "categories" : [ "integration" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
+      "status" : "stable",
+      "unlisted" : true,
+      "built-with-quarkus-core" : "2.15.0.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:1.7.1"
   }, {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
@@ -311,6 +338,20 @@
     },
     "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:1.0.3"
   }, {
+    "name" : "Quarkus CXF Metrics",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "keywords" : [ "soap", "cxf", "services" ],
+      "categories" : [ "integration" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
+      "status" : "stable",
+      "unlisted" : true,
+      "built-with-quarkus-core" : "2.15.0.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:1.7.1"
+  }, {
     "name" : "MyBatis Plus",
     "description" : "A powerful enhanced toolkit of MyBatis to simplify development",
     "metadata" : {
@@ -535,6 +576,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-jackson" ]
     },
     "artifact" : "io.quarkiverse.tektonclient:quarkus-tekton-client::jar:0.5.0"
+  }, {
+    "name" : "Quarkus CXF WS-Security",
+    "description" : "Consume and produce web services with Web Services Security (WS-Security, WSS)",
+    "metadata" : {
+      "keywords" : [ "cxf", "jaxws", "jax-ws", "services", "soap", "ws", "wss", "ws-security" ],
+      "categories" : [ "integration" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
+      "status" : "stable",
+      "built-with-quarkus-core" : "2.15.0.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
+      "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-core", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
+    },
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:1.7.1"
   }, {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -771,6 +825,19 @@
     },
     "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:1.1.0"
   }, {
+    "name" : "Quarkus CXF Logging",
+    "description" : "Levearge advanced Apache CXF logging options, such as logging of SOAP messages",
+    "metadata" : {
+      "keywords" : [ "cxf", "jaxws", "jax-ws", "services", "soap" ],
+      "categories" : [ "integration" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
+      "status" : "stable",
+      "built-with-quarkus-core" : "2.15.0.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
+      "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
+    },
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:1.7.1"
+  }, {
     "name" : "GitHub App Command Airline",
     "description" : "Add comment-based commands to your GitHub App",
     "metadata" : {
@@ -845,6 +912,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-elasticsearch-rest-high-level-client", "io.quarkus:quarkus-core", "io.quarkus:quarkus-elasticsearch-rest-client-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-elasticsearch-rest-client", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.quarkus-elasticsearch-reactive:quarkus-elasticsearch-reactive::jar:0.2.0"
+  }, {
+    "name" : "Quarkus CXF WS-ReliableMessaging",
+    "description" : "Consume and produce web services with Web Services Reliable Messaging (WS-ReliableMessaging, WSRM)",
+    "metadata" : {
+      "keywords" : [ "cxf", "jaxws", "jax-ws", "services", "soap", "ws", "wsrm", "reliable", "messaging", "ws-reliablemessaging" ],
+      "categories" : [ "integration" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
+      "status" : "stable",
+      "built-with-quarkus-core" : "2.15.0.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
+      "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
+    },
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:1.7.1"
   }, {
     "name" : "Satoken Dao Redis Jackson",
     "description" : "Satoken Dao Redis Jackson Plugin Of Quarkus Satoken",
