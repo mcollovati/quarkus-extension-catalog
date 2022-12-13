@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.0.CR1",
   "extensions" : [ {
     "name" : "Artemis JMS",
     "description" : "Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
@@ -626,6 +626,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-jsonp" ]
     },
     "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:3.0.2"
+  }, {
+    "name" : "AsyncAPI",
+    "description" : "AsyncAPI configuration and metadata generator",
+    "metadata" : {
+      "keywords" : [ "asyncapi" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-asyncapi/dev/",
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.15.0.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
+    },
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.0.1"
   }, {
     "name" : "Satoken Context Dubbo",
     "description" : "Satoken Context Dubbo Plugin Of Quarkus Satoken",
