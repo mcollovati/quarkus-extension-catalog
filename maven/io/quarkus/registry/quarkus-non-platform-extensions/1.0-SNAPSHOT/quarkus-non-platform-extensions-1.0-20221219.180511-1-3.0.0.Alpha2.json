@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.6.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.6.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha2:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha2",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -192,7 +192,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:1.7.1"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:1.7.2"
   }, {
     "name" : "Artemis JMS",
     "description" : "Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
@@ -217,7 +217,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-core", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:1.7.1"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:1.7.2"
   }, {
     "name" : "Quarkiverse - Tekton Client - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -317,7 +317,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:1.7.1"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:1.7.2"
   }, {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -525,7 +525,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:1.7.1"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:1.7.2"
   }, {
     "name" : "Hibernate Search + Elasticsearch - AWS authentication and request signing",
     "description" : "AWS request signing for Hibernate Search ORM + Elasticsearch",
@@ -551,7 +551,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:1.7.1"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:1.7.2"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
@@ -695,7 +695,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:1.7.1"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:1.7.2"
   }, {
     "name" : "Quarkus - Unleash - Runtime",
     "description" : "Unleash is a feature toggle system",
@@ -842,7 +842,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:1.7.1"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:1.7.2"
   }, {
     "name" : "JBeret - Batch Processing",
     "description" : "Write Batch Applications with JBeret a JSR-352 implementation",
