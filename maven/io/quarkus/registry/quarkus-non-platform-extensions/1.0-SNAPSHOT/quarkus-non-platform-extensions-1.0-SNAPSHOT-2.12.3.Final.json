@@ -949,7 +949,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.0.1.jandex2"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.0.1.jandex2a"
   }, {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
