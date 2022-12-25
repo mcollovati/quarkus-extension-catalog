@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.6.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.6.Final",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -114,10 +114,11 @@
     "name" : "Quarkus - Hibernate Types - Runtime",
     "description" : "Hibernate Types",
     "metadata" : {
-      "built-with-quarkus-core" : "2.2.3.Final",
+      "built-with-quarkus-core" : "2.15.1.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-hibernate-types",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.hibernatetypes:quarkus-hibernate-types::jar:0.2.0"
+    "artifact" : "io.quarkiverse.hibernatetypes:quarkus-hibernate-types::jar:1.0.0"
   }, {
     "name" : "Satoken Context Dubbo",
     "description" : "Satoken Context Dubbo Plugin Of Quarkus Satoken",
@@ -921,10 +922,11 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-apistax/dev/",
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.12.3.Final",
+      "built-with-quarkus-core" : "2.15.1.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-apistax",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.3.1"
+    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.4.1"
   }, {
     "name" : "Amazon Alexa",
     "description" : "Write Amazon Alexa Skills with AWS Lambda or HTTPS endpoints",
