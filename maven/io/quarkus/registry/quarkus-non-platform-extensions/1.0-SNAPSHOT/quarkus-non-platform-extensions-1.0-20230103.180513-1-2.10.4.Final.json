@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -766,10 +766,11 @@
       "keywords" : [ "ngrok", "public" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.9.2.Final",
+      "built-with-quarkus-core" : "2.15.1.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-ngrok",
       "extension-dependencies" : [ "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.ngrok:quarkus-ngrok::jar:0.2.0"
+    "artifact" : "io.quarkiverse.ngrok:quarkus-ngrok::jar:0.3.0"
   }, {
     "name" : "Camunda Platform Engine",
     "description" : "Quarkus Extension for the Camunda Platform Engine",
@@ -951,7 +952,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.0.1.jandex2a"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.0.2"
   }, {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
