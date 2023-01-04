@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -344,10 +344,11 @@
       "categories" : [ "web" ],
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-omnifaces/dev/",
-      "built-with-quarkus-core" : "2.13.0.Final",
+      "built-with-quarkus-core" : "2.15.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-omnifaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:3.0.2"
+    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:3.0.3"
   }, {
     "name" : "Univocity Parsers",
     "description" : "Univocity Parsers Extension, which allowing to use univocity dependency in the Quarkus' Eco-System. Example for\n      parsing csv or tsv files, with a really fast, flexible and reliable Java parsers thank to its data binding, consistent interface,\n      a solid framework and a parallel input buffering",
