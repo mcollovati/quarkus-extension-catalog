@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.6.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.6.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.1.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.1.Final",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -202,10 +202,11 @@
       "categories" : [ "messaging" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-artemis/dev/index.html",
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "3.0.0.Alpha1",
+      "built-with-quarkus-core" : "3.0.0.Alpha2",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-artemis",
       "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:3.0.0.Alpha3"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:3.0.0.Alpha4"
   }, {
     "name" : "Quarkus CXF WS-Security",
     "description" : "Consume and produce web services with Web Services Security (WS-Security, WSS)",
@@ -959,12 +960,12 @@
     "metadata" : {
       "keywords" : [ "artemis-core", "artemis" ],
       "categories" : [ "messaging" ],
-      "unlisted" : true,
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "3.0.0.Alpha1",
+      "built-with-quarkus-core" : "3.0.0.Alpha2",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-artemis",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:3.0.0.Alpha3"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:3.0.0.Alpha4"
   }, {
     "name" : "Messaginghub Pooled JMS",
     "description" : "Quarkus extension for a JMS Connection pool and transaction manager integration for messaging applications supporting JMS 1.1 and 2.0 clients",
