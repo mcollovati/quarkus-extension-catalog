@@ -502,7 +502,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-jsch",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.2"
+    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.3"
   }, {
     "name" : "Logging JSON Jackson",
     "description" : "Logging in JSON with support for custom fields",

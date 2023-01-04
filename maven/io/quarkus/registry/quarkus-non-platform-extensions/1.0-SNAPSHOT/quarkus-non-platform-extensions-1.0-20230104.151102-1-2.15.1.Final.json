@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.1.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.1.Final",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -502,7 +502,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-jsch",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.2"
+    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.3"
   }, {
     "name" : "Logging JSON Jackson",
     "description" : "Logging in JSON with support for custom fields",
