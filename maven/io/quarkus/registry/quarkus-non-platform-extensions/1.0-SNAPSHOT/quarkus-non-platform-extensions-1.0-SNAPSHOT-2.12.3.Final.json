@@ -538,10 +538,11 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-hibernate-search-extras/dev/index.html#aws-integration",
       "status" : "stable",
       "config" : [ "quarkus.hibernate-search-orm." ],
-      "built-with-quarkus-core" : "2.12.0.Final",
+      "built-with-quarkus-core" : "2.15.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-hibernate-search-extras",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-hibernate-search-orm-elasticsearch", "io.quarkus:quarkus-elasticsearch-rest-client-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.amazonservices:quarkus-amazon-common", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.hibernatesearchextras:quarkus-hibernate-search-orm-elasticsearch-aws::jar:1.1.0"
+    "artifact" : "io.quarkiverse.hibernatesearchextras:quarkus-hibernate-search-orm-elasticsearch-aws::jar:1.2.0"
   }, {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
