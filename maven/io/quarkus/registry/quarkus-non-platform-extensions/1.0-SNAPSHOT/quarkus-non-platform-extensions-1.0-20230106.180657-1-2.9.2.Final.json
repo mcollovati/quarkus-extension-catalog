@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.6.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.6.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -52,11 +52,11 @@
     "metadata" : {
       "keywords" : [ "operator", "kubernetes", "openshift" ],
       "categories" : [ "cloud" ],
-      "built-with-quarkus-core" : "2.15.1.Final",
+      "built-with-quarkus-core" : "2.15.2.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-operator-sdk",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:5.0.1"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:5.0.2"
   }, {
     "name" : "JGraphT",
     "description" : "JGraphT - a Java library of graph theory data structures and algorithms",
@@ -87,7 +87,7 @@
       "built-with-quarkus-core" : "2.2.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.4.0"
+    "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.5.0"
   }, {
     "name" : "MyFaces",
     "description" : "Apache MyFaces Core runtime extension for Quarkus.",
@@ -820,11 +820,11 @@
     "name" : "Quarkus - Operator SDK - Bundle Generator",
     "description" : "Bundle Generation for Java Operator SDK operators",
     "metadata" : {
-      "built-with-quarkus-core" : "2.15.1.Final",
+      "built-with-quarkus-core" : "2.15.2.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-operator-sdk",
       "extension-dependencies" : [ "io.quarkiverse.operatorsdk:quarkus-operator-sdk", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:5.0.1"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:5.0.2"
   }, {
     "name" : "Cucumber",
     "description" : "Run tests using Cucumber",
