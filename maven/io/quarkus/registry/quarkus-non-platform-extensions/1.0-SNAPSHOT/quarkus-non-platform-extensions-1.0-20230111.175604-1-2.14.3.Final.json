@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -87,7 +87,7 @@
       "built-with-quarkus-core" : "2.2.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.5.0"
+    "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.5.1"
   }, {
     "name" : "MyFaces",
     "description" : "Apache MyFaces Core runtime extension for Quarkus.",
@@ -664,10 +664,11 @@
       "keywords" : [ "shardingsphere-jdbc", "jdbc" ],
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.13.3.Final",
+      "built-with-quarkus-core" : "2.15.3.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-shardingsphere-jdbc",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.shardingsphere:quarkus-shardingsphere-jdbc::jar:0.0.3"
+    "artifact" : "io.quarkiverse.shardingsphere:quarkus-shardingsphere-jdbc::jar:0.0.4"
   }, {
     "name" : "Quarkus - Zeebe - Runtime",
     "description" : "Zeebe Camunda cloud BPMN workflow engine",
