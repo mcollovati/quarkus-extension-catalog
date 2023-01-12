@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.0.CR1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.0.CR1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
@@ -114,11 +114,11 @@
     "name" : "Quarkus - Hibernate Types - Runtime",
     "description" : "Hibernate Types",
     "metadata" : {
-      "built-with-quarkus-core" : "2.15.1.Final",
+      "built-with-quarkus-core" : "2.15.3.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-hibernate-types",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.hibernatetypes:quarkus-hibernate-types::jar:1.0.0"
+    "artifact" : "io.quarkiverse.hibernatetypes:quarkus-hibernate-types::jar:1.0.1"
   }, {
     "name" : "Satoken Context Dubbo",
     "description" : "Satoken Context Dubbo Plugin Of Quarkus Satoken",
