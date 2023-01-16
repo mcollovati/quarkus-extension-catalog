@@ -4,86 +4,86 @@
   <artifactId>quarkus-platforms</artifactId>
   <versioning>
     <snapshot>
-      <timestamp>20230112.112636</timestamp>
+      <timestamp>20230116.120608</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20230112112636</lastUpdated>
+    <lastUpdated>20230116120608</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.16.0.CR1</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.14.3.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.13.6.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.11.3.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.7.6.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.10.4.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.9.2.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.8.3.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>3.0.0.Alpha2</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.15.3.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.12.3.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20230112.112636-1</value>
-        <updated>20230112112636</updated>
+        <value>1.0-20230116.120608-1</value>
+        <updated>20230116120608</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
