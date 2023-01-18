@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -139,6 +139,18 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.4.1"
+  }, {
+    "name" : "Pact Provider",
+    "description" : "Support for running a pact provider in Quarkus, including in Quarkus dev mode.",
+    "metadata" : {
+      "keywords" : [ "contract-testing, pact" ],
+      "categories" : [ "testing" ],
+      "status" : "experimental",
+      "built-with-quarkus-core" : "2.15.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-pact",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kotlin" ]
+    },
+    "artifact" : "io.quarkiverse.pact:quarkus-pact-provider::jar:0.2"
   }, {
     "name" : "Quarkus - Rsocket",
     "description" : "RSocket Support for native image",
@@ -807,6 +819,18 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.satoken:quarkus-sa-token-dao-redis-jackson", "org.redisson:redisson-quarkus-20", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson" ]
     },
     "artifact" : "io.quarkiverse.satoken:quarkus-sa-token-dao-alone-redis::jar:1.31.1"
+  }, {
+    "name" : "Pact consumer",
+    "description" : "Support for running a pact consumer in Quarkus, including in Quarkus dev mode.",
+    "metadata" : {
+      "keywords" : [ "contract-testing, pact" ],
+      "categories" : [ "testing" ],
+      "status" : "experimental",
+      "built-with-quarkus-core" : "2.15.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-pact",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kotlin" ]
+    },
+    "artifact" : "io.quarkiverse.pact:quarkus-pact-consumer::jar:0.2"
   }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
