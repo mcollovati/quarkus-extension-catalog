@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -54,13 +54,17 @@
     },
     "artifact" : "io.quarkiverse.quarkus-zookeeper:quarkus-zookeeper::jar:1.0.2"
   }, {
-    "name" : "Quarkiverse - Tekton Client - Runtime",
-    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "name" : "Tekton Client",
+    "description" : "Inject the Tekton client without worrying about the complexity related to handling dependencies.",
     "metadata" : {
-      "built-with-quarkus-core" : "2.2.2.Final",
+      "keywords" : [ "tekton" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.15.3.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-tekton-client",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.tektonclient:quarkus-tekton-client::jar:0.5.0"
+    "artifact" : "io.quarkiverse.tektonclient:quarkus-tekton-client::jar:0.6.0"
   }, {
     "name" : "Microprofile",
     "description" : "Quarkus MicroProfile 4.1 Compatible Implementation",
