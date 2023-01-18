@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -139,18 +139,6 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.4.1"
-  }, {
-    "name" : "OpenAPI Generator - REST Client Generator",
-    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
-    "metadata" : {
-      "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
-      "categories" : [ "rest" ],
-      "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha2",
-      "scm-url" : "https://github.com/quarkiverse/quarkus-openapi-generator",
-      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-rest-client-jackson", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
-    },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.1.0"
   }, {
     "name" : "Quarkus - Rsocket",
     "description" : "RSocket Support for native image",
@@ -620,6 +608,18 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.rabbitmqclient:quarkus-rabbitmq-client::jar:0.5.3"
+  }, {
+    "name" : "OpenAPI Generator - REST Client Generator",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
+      "categories" : [ "rest" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.0.Alpha2",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-openapi-generator",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-rest-client-jackson", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
+    },
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.1.0"
   }, {
     "name" : "JGraphT",
     "description" : "JGraphT - a Java library of graph theory data structures and algorithms",
