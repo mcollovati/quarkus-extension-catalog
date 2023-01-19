@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha2:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha2",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.0.CR1",
   "extensions" : [ {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -46,13 +46,14 @@
       "categories" : [ "platform", "microservices" ],
       "status" : "preview",
       "config" : [ "quarkus.zookeeper." ],
-      "built-with-quarkus-core" : "2.13.2.Final",
+      "built-with-quarkus-core" : "2.16.0.Final",
       "capabilities" : {
         "provides" : [ "io.quarkus.zookeeper.client" ]
       },
+      "scm-url" : "https://github.com/quarkiverse/quarkus-zookeeper-client",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.quarkus-zookeeper:quarkus-zookeeper::jar:1.0.2"
+    "artifact" : "io.quarkiverse.quarkus-zookeeper:quarkus-zookeeper::jar:1.0.3"
   }, {
     "name" : "Tekton Client",
     "description" : "Inject the Tekton client without worrying about the complexity related to handling dependencies.",
