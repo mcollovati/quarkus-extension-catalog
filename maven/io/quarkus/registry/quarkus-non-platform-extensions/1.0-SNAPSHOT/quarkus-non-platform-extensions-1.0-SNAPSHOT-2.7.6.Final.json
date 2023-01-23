@@ -770,7 +770,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-asyncapi",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.0.2"
+    "artifact" : "io.quarkiverse.asyncapi:quarkus-asyncapi::jar:0.0.3"
   }, {
     "name" : "Cucumber",
     "description" : "Run tests using Cucumber",
