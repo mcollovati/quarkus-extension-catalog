@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -586,14 +586,18 @@
     },
     "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.3"
   }, {
-    "name" : "Quarkus - Operator SDK - Bundle Generator",
-    "description" : "Bundle Generation for Java Operator SDK operators",
+    "name" : "Quarkus - Operator SDK - OLM Bundle Generator",
+    "description" : "OLM Bundle Generation for Java Operator SDK operators (https://javaoperatorsdk.io)",
     "metadata" : {
-      "built-with-quarkus-core" : "2.15.2.Final",
+      "keywords" : [ "operator", "kubernetes", "openshift", "olm", "csv", "bundle" ],
+      "categories" : [ "cloud", "kubernetes" ],
+      "status" : "stable",
+      "icon-url" : "https://avatars.githubusercontent.com/u/72702069?s=400&u=5909e0ba12991a5fcfe17c67ed4d46f84695d670&v=4",
+      "built-with-quarkus-core" : "2.15.3.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-operator-sdk",
       "extension-dependencies" : [ "io.quarkiverse.operatorsdk:quarkus-operator-sdk", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:5.0.2"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:5.0.3"
   }, {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
@@ -620,15 +624,17 @@
     "artifact" : "io.quarkus.qson:quarkus-qson::jar:1.1.1.Final"
   }, {
     "name" : "Quarkus - Operator SDK",
-    "description" : "Quarkus extension for the Java Operator SDK (https://javaoperatorsdk.io)",
+    "description" : "Quarkus extension easing the development of Kubernetes operators using the Java Operator SDK (https://javaoperatorsdk.io)",
     "metadata" : {
       "keywords" : [ "operator", "kubernetes", "openshift" ],
-      "categories" : [ "cloud" ],
-      "built-with-quarkus-core" : "2.15.2.Final",
+      "categories" : [ "cloud", "kubernetes" ],
+      "status" : "stable",
+      "icon-url" : "https://avatars.githubusercontent.com/u/72702069?s=400&u=5909e0ba12991a5fcfe17c67ed4d46f84695d670&v=4",
+      "built-with-quarkus-core" : "2.15.3.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-operator-sdk",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:5.0.2"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:5.0.3"
   }, {
     "name" : "Quinoa",
     "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, …) alongside other Quarkus services (REST, GraphQL, Security, Events, ...).\n\nLive code the backend and frontend together with close to no configuration. When enabled in development mode, Quinoa will start the UI live coding server provided by the target framework and forward relevant requests to it. In production mode, Quinoa will run the build and process the generated files to serve them at runtime.\n",
