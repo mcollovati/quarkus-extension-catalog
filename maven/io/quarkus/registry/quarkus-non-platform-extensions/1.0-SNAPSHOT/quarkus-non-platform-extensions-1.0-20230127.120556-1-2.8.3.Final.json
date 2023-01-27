@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -707,14 +707,14 @@
     "description" : "Express your Hibernate queries as standard Java Streams",
     "metadata" : {
       "keywords" : [ "jpastreamer", "hibernate", "panache", "jpa" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/jpastreamer/dev/",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jpastreamer/dev/",
       "categories" : [ "data" ],
       "status" : "preview",
       "built-with-quarkus-core" : "2.15.1.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jpastreamer",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jpastreamer:quarkus-jpastreamer::jar:1.0.0"
+    "artifact" : "io.quarkiverse.jpastreamer:quarkus-jpastreamer::jar:1.0.1"
   }, {
     "name" : "Renarde",
     "description" : "Renarde is a server-side Web Framework based on Quarkus, Qute, Hibernate and RESTEasy Reactive.",
