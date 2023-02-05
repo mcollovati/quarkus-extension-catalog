@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -585,6 +585,20 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.4"
+  }, {
+    "name" : "Apache POI",
+    "description" : "Read and write files in Microsoft Office formats, such as Word, Excel and PowerPoint",
+    "metadata" : {
+      "keywords" : [ "poi", "office", "excel", "word", "powerpoint", "ooxml", "odf", "document", "spreadsheet", "presentation", "document", "writer" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/poi/dev/",
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.16.1.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
+    },
+    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:1.0.0"
   }, {
     "name" : "Quarkus - Operator SDK - OLM Bundle Generator",
     "description" : "OLM Bundle Generation for Java Operator SDK operators (https://javaoperatorsdk.io)",
