@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -465,12 +465,13 @@
     "metadata" : {
       "keywords" : [ "jdbc-sqlite", "jdbc", "sqlite" ],
       "categories" : [ "data" ],
-      "status" : "preview",
+      "status" : "stable",
       "description" : "Connect to the Sqlite database via JDBC/DataSource/Hibernate",
-      "built-with-quarkus-core" : "2.11.2.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-jdbc-sqlite",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:1.0.3"
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:3.0.0"
   }, {
     "name" : "Microprofile",
     "description" : "Quarkus MicroProfile 4.1 Compatible Implementation",
@@ -548,7 +549,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-logging-cloudwatch",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.amazonservices:quarkus-amazon-common", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.logging.cloudwatch:quarkus-logging-cloudwatch::jar:5.5.0"
+    "artifact" : "io.quarkiverse.logging.cloudwatch:quarkus-logging-cloudwatch::jar:5.6.0"
   }, {
     "name" : "Santuario XML Security",
     "description" : "Native support for Apache Santuario xmlsec library",
@@ -599,7 +600,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:1.0.1"
+    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:1.0.2"
   }, {
     "name" : "Quarkus - Operator SDK - OLM Bundle Generator",
     "description" : "OLM Bundle Generation for Java Operator SDK operators (https://javaoperatorsdk.io)",
@@ -1039,11 +1040,11 @@
       "categories" : [ "data" ],
       "status" : "experimental",
       "description" : "Connect to the ClickHouse database via JDBC/DataSource",
-      "built-with-quarkus-core" : "2.16.0.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jdbc-clickhouse",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-clickhouse::jar:0.0.2"
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-clickhouse::jar:3.0.0"
   }, {
     "name" : "OpenFGA Client",
     "description" : "Client for connecting to OpenFGA instances and fga.dev.",
