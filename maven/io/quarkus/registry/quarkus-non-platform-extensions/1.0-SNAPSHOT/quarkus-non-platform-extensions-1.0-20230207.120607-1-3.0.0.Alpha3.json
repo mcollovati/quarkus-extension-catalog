@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha3:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha3",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -822,10 +822,11 @@
       "status" : "preview",
       "config" : [ "quarkus.jef." ],
       "description" : "Connect to embedded devices over GPIO/SPI/I2C/Serial interfaces",
-      "built-with-quarkus-core" : "2.13.0.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-jef",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-resteasy-reactive-qute", "io.quarkus:quarkus-resteasy-reactive", "io.quarkus:quarkus-resteasy-reactive-common", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-qute" ]
     },
-    "artifact" : "io.quarkiverse.jef:quarkus-java-embedded-framework::jar:0.0.2"
+    "artifact" : "io.quarkiverse.jef:quarkus-java-embedded-framework::jar:3.0.0"
   }, {
     "name" : "Micrometer registry - Azure Monitor",
     "description" : "Send data gathered by Micrometer to Azure Monitor",
