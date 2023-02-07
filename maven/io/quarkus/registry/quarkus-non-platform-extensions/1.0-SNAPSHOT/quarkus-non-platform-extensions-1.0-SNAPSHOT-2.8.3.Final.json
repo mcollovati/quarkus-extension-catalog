@@ -1017,6 +1017,19 @@
     },
     "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:1.7.3"
   }, {
+    "name" : "Dashbuilder",
+    "description" : "Dashbuilder extension for embeeding dashboards in a Quarkus application",
+    "metadata" : {
+      "keywords" : [ "dashbuilder", "dashboards", "dataviz" ],
+      "guide" : "https://quarkus.io/guides/kogito",
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.0.Alpha2",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-dashbuilder",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.dashbuilder:quarkus-dashbuilder::jar:0.26.1"
+  }, {
     "name" : "JDBC Driver - Clickhouse",
     "description" : "Connect to the ClickHouse database via JDBC",
     "metadata" : {
