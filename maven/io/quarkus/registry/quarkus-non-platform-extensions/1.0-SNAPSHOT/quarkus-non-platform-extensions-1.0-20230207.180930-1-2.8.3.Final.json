@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -231,10 +231,11 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-pooled-jms/dev/index.html",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.14.1.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-pooled-jms",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.messaginghub:quarkus-pooled-jms::jar:1.0.7"
+    "artifact" : "io.quarkiverse.messaginghub:quarkus-pooled-jms::jar:2.0.0.CR1"
   }, {
     "name" : "Amazon Alexa",
     "description" : "Write Amazon Alexa Skills with AWS Lambda or HTTPS endpoints",
