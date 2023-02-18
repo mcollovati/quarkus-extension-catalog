@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Maven Resolver",
     "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
@@ -354,6 +354,15 @@
       "extension-dependencies" : [ "io.quarkiverse.mybatis:quarkus-mybatis", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:1.0.6"
+  }, {
+    "name" : "Jdbi Quarkus - Runtime",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "built-with-quarkus-core" : "2.16.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-jdbi",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-caffeine" ]
+    },
+    "artifact" : "io.quarkiverse.jdbi:quarkus-jdbi::jar:0.5.0"
   }, {
     "name" : "Logging Sentry",
     "description" : "Use Sentry, a self-hosted or cloud-based error monitoring solution",

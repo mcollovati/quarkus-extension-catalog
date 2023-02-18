@@ -355,6 +355,15 @@
     },
     "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:1.0.6"
   }, {
+    "name" : "Jdbi Quarkus - Runtime",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "built-with-quarkus-core" : "2.16.2.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-jdbi",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-caffeine" ]
+    },
+    "artifact" : "io.quarkiverse.jdbi:quarkus-jdbi::jar:0.5.0"
+  }, {
     "name" : "Logging Sentry",
     "description" : "Use Sentry, a self-hosted or cloud-based error monitoring solution",
     "metadata" : {
