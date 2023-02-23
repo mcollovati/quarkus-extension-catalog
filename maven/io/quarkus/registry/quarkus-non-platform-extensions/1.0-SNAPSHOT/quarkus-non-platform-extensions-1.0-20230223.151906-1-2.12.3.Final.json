@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha4:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha4",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
   "extensions" : [ {
     "name" : "Maven Resolver",
     "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
@@ -511,6 +511,21 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.cucumber:quarkus-cucumber::jar:0.6.0"
+  }, {
+    "name" : "PrimeFaces",
+    "description" : "PrimeFaces - is the ultimate component suite for JavaServer Faces",
+    "metadata" : {
+      "short-name" : "primefaces",
+      "keywords" : [ "primefaces", "jsf", "faces", "myfaces" ],
+      "categories" : [ "web" ],
+      "status" : "stable",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-primefaces/dev/",
+      "built-with-quarkus-core" : "2.16.3.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-primefaces",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-jsonp", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt" ]
+    },
+    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:2.12.0"
   }, {
     "name" : "Satoken Dao Redis Jackson",
     "description" : "Satoken Dao Redis Jackson Plugin Of Quarkus Satoken",
