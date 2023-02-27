@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.3.Final",
   "extensions" : [ {
     "name" : "Maven Resolver",
     "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
@@ -235,15 +235,18 @@
     "name" : "APIstax",
     "description" : "Secure and reliable APIs for your common business needs. Produce PDFs from HTML. Generate EU payment QR codes. Verify VAT numbers of european companies. Geocoding and reverse geocoding.",
     "metadata" : {
-      "keywords" : [ "apistax", "vat-verification", "htmltopdf", "pdf-generation", "geocoding", "reverse-geocoding", "payment-qr-code", "epc-qr-code", "girocode" ],
+      "short-name" : "apistax",
+      "keywords" : [ "apistax", "vat-verification", "htmltopdf", "pdf-generation", "geocoding", "reverse-geocoding", "payment-qr-code", "epc-qr-code", "girocode", "pdf" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-apistax/dev/",
+      "icon-url" : "https://apistax.io/user/assets/logo-square-black.png",
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.15.1.Final",
+      "built-with-quarkus-core" : "2.16.3.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-apistax",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.4.1"
+    "artifact" : "io.quarkiverse.apistax:quarkus-apistax::jar:1.4.2"
   }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
@@ -814,12 +817,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-poi/dev/",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.16.1.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha4",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:1.0.2"
+    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.0.Alpha1"
   }, {
     "name" : "Camunda Platform Engine",
     "description" : "Quarkus Extension for the Camunda Platform Engine",
