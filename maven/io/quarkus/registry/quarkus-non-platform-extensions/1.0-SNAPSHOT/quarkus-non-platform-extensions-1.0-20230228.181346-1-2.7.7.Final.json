@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Maven Resolver",
     "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
@@ -354,11 +354,11 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mybatis/dev/",
       "categories" : [ "data" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.16.1.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
       "scm-url" : "https://github.com/quarkiverse/quarkus-mybatis",
       "extension-dependencies" : [ "io.quarkiverse.mybatis:quarkus-mybatis", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:1.0.6"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:2.0.0.CR1"
   }, {
     "name" : "Jdbi Quarkus - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -550,11 +550,11 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mybatis/dev/index.html",
       "categories" : [ "data" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.16.1.Final",
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
       "scm-url" : "https://github.com/quarkiverse/quarkus-mybatis",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:1.0.6"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:2.0.0.CR1"
   }, {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
