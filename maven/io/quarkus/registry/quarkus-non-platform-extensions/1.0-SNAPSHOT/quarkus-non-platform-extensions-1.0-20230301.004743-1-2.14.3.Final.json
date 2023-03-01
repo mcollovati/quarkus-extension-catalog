@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "Maven Resolver",
     "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
@@ -530,7 +530,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-primefaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-jsonp", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:2.12.1"
+    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:2.12.2"
   }, {
     "name" : "Satoken Dao Redis Jackson",
     "description" : "Satoken Dao Redis Jackson Plugin Of Quarkus Satoken",
