@@ -410,10 +410,11 @@
       "guide" : "https://github-api.kohsuke.org/",
       "categories" : [ "business-automation" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.13.3.Final",
+      "built-with-quarkus-core" : "2.16.3.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-github-api",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.313.1"
+    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.314.0"
   }, {
     "name" : "Satoken Resteasy",
     "description" : "Satoken Resteasy ...",
