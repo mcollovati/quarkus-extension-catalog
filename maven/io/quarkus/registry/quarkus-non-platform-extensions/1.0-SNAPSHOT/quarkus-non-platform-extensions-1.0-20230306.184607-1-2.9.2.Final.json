@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Maven Resolver",
     "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
@@ -1062,7 +1062,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-omnifaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.1.0"
+    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.1.1"
   }, {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
