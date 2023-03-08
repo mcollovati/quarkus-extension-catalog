@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha5:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha5",
   "extensions" : [ {
     "name" : "Maven Resolver",
     "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
@@ -226,11 +226,11 @@
       "categories" : [ "miscellaneous" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jgit/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.15.0.Final",
+      "built-with-quarkus-core" : "2.16.0.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jgit",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.jsch:quarkus-jsch" ]
     },
-    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:2.3.1"
+    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:2.3.2"
   }, {
     "name" : "APIstax",
     "description" : "Secure and reliable APIs for your common business needs. Produce PDFs from HTML. Generate EU payment QR codes. Verify VAT numbers of european companies. Geocoding and reverse geocoding.",
