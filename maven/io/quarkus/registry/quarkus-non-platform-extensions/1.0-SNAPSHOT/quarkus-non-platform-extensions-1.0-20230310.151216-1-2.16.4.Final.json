@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.4.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF Logging",
     "description" : "Levearge advanced Apache CXF logging options, such as logging of SOAP messages",
@@ -44,6 +44,18 @@
     },
     "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:1.7.3"
   }, {
+    "name" : "Config JDBC",
+    "description" : "Consume your configuration from a JDBC datastore",
+    "metadata" : {
+      "keywords" : [ "config", "configuration", "jdbc", "agroal" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
+    },
+    "artifact" : "io.quarkiverse.config:quarkus-config-jdbc::jar:2.0.0"
+  }, {
     "name" : "Quarkus - HiveMQ Client",
     "description" : "Quarkus - Hivemq Client Implementation of MQQ Messaging",
     "metadata" : {
@@ -55,6 +67,17 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.hivemqclient:quarkus-hivemq-client::jar:1.0.0"
+  }, {
+    "name" : "HOCON Config",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "keywords" : [ "config", "configuration", "hocon" ],
+      "categories" : [ "core" ],
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.config:quarkus-config-hocon::jar:2.0.0"
   }, {
     "name" : "JDBC Driver - Sqlite",
     "description" : "Connect to the SQLite database via JDBC",
@@ -939,6 +962,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mongodb-client", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny-reactive-streams-operators" ]
     },
     "artifact" : "io.quarkiverse.morphia:quarkus-morphia::jar:0.1.0"
+  }, {
+    "name" : "Consul Config",
+    "description" : "Read runtime configuration from Consul Key - Value store",
+    "metadata" : {
+      "keywords" : [ "consul-client", "config", "configuration", "consul" ],
+      "categories" : [ "core" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-config-extensions/dev/consul.html",
+      "config" : [ "quarkus.consul-config." ],
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
+    },
+    "artifact" : "io.quarkiverse.config:quarkus-config-consul::jar:2.0.0"
   }, {
     "name" : "Neo4j client",
     "description" : "Connect to Neo4j graph datastore",
