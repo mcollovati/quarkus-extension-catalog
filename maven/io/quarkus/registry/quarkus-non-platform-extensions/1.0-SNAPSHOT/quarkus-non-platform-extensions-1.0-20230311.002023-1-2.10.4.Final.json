@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha5:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha5",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF Logging",
     "description" : "Levearge advanced Apache CXF logging options, such as logging of SOAP messages",
@@ -1134,13 +1134,13 @@
     "description" : "Generation of Rest Clients based on OpenAPI specification files",
     "metadata" : {
       "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
-      "categories" : [ "rest" ],
+      "categories" : [ "web" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha2",
+      "built-with-quarkus-core" : "3.0.0.Alpha5",
       "scm-url" : "https://github.com/quarkiverse/quarkus-openapi-generator",
-      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-rest-client-jackson", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.1.1"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.2.0"
   }, {
     "name" : "Splunk logging extension - Runtime",
     "description" : "Send logs to a Splunk HTTP Event Collector (HEC)",
