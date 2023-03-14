@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF Logging",
     "description" : "Levearge advanced Apache CXF logging options, such as logging of SOAP messages",
@@ -692,17 +692,18 @@
     "artifact" : "io.quarkiverse.jdbi:quarkus-jdbi::jar:0.5.0"
   }, {
     "name" : "Dashbuilder",
-    "description" : "Dashbuilder extension for embeeding dashboards in a Quarkus application",
+    "description" : "Dashbuilder extension for embedding dashboards in a Quarkus application",
     "metadata" : {
       "keywords" : [ "dashbuilder", "dashboards", "dataviz" ],
-      "guide" : "https://quarkus.io/guides/kogito",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-dashbuilder/dev/index.html",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha2",
+      "built-with-quarkus-core" : "3.0.0.Alpha5",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-dashbuilder",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.dashbuilder:quarkus-dashbuilder::jar:0.26.1"
+    "artifact" : "io.quarkiverse.dashbuilder:quarkus-dashbuilder::jar:0.27.0"
   }, {
     "name" : "Quarkus - Unleash - Runtime",
     "description" : "Unleash is a feature toggle system",
