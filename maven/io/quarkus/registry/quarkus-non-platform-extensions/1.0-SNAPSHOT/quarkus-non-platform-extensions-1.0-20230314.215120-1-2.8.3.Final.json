@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF Logging",
     "description" : "Levearge advanced Apache CXF logging options, such as logging of SOAP messages",
@@ -463,20 +463,6 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:1.7.3"
-  }, {
-    "name" : "Apache POI",
-    "description" : "Read and write files in Microsoft Office formats, such as Word, Excel and PowerPoint",
-    "metadata" : {
-      "keywords" : [ "poi", "office", "excel", "word", "powerpoint", "ooxml", "odf", "document", "spreadsheet", "presentation", "document", "writer" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-poi/dev/",
-      "categories" : [ "miscellaneous" ],
-      "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
-      "minimum-java-version" : "11",
-      "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
-    },
-    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.0.Alpha1"
   }, {
     "name" : "OpenFGA Client",
     "description" : "Client for connecting to OpenFGA instances and fga.dev.",
