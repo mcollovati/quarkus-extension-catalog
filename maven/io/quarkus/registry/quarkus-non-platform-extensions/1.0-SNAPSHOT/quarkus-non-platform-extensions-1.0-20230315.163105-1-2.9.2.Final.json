@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.Alpha5:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.Alpha5",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF Logging",
     "description" : "Levearge advanced Apache CXF logging options, such as logging of SOAP messages",
@@ -142,6 +142,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-jackson" ]
     },
     "artifact" : "io.quarkiverse.tektonclient:quarkus-tekton-client::jar:0.6.0"
+  }, {
+    "name" : "Authzed Client",
+    "description" : "A wrapper around the authzed client",
+    "metadata" : {
+      "keywords" : [ "authzed-client", "fga" ],
+      "categories" : [ "authorization", "security" ],
+      "status" : "preview",
+      "cli-plugins" : [ "io.quarkiverse.authzed:quarkus-authzed-cli:0.2.1" ],
+      "built-with-quarkus-core" : "2.16.4.Final",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-authzed-client",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-grpc", "io.quarkus:quarkus-grpc-common", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-smallrye-stork", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
+    },
+    "artifact" : "io.quarkiverse.authzed:quarkus-authzed-client::jar:0.2.1"
   }, {
     "name" : "RabbitMQ Client",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -463,6 +476,21 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:1.7.3"
+  }, {
+    "name" : "Apache POI",
+    "description" : "Read and write files in Microsoft Office formats, such as Word, Excel and PowerPoint",
+    "metadata" : {
+      "keywords" : [ "poi", "office", "excel", "word", "powerpoint", "ooxml", "odf", "document", "spreadsheet", "presentation", "document", "writer" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-poi/dev/",
+      "icon-url" : "https://poi.apache.org/images/poweredby-poi-logo.png",
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.0.Alpha5",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
+    },
+    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.0.Alpha2"
   }, {
     "name" : "OpenFGA Client",
     "description" : "Client for connecting to OpenFGA instances and fga.dev.",
@@ -1127,7 +1155,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-openapi-generator",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.2.0"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.2.1"
   }, {
     "name" : "Splunk logging extension - Runtime",
     "description" : "Send logs to a Splunk HTTP Event Collector (HEC)",
