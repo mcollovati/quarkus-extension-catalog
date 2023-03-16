@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
   "extensions" : [ {
     "name" : "Pact consumer",
     "description" : "Support for running a pact consumer in Quarkus, including in Quarkus dev mode.",
@@ -432,25 +432,6 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.scala:quarkus-scala3::jar:0.0.1"
-  }, {
-    "name" : "Quinoa",
-    "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, …) alongside other Quarkus services (REST, GraphQL, Security, Events, ...).\n\nLive code the backend and frontend together with close to no configuration. When enabled in development mode, Quinoa will start the UI live coding server provided by the target framework and forward relevant requests to it. In production mode, Quinoa will run the build and process the generated files to serve them at runtime.\n",
-    "metadata" : {
-      "keywords" : [ "quinoa", "ui", "react", "angular", "vue", "lit", "spa", "node", "nodejs", "web", "frontend" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-quinoa/dev/index.html",
-      "categories" : [ "web" ],
-      "status" : "preview",
-      "codestart" : {
-        "name" : "quinoa",
-        "languages" : [ "java", "kotlin", "scala" ],
-        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:1.2.6"
-      },
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
-      "minimum-java-version" : "11",
-      "scm-url" : "https://github.com/quarkiverse/quarkus-quinoa",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
-    },
-    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.2.6"
   }, {
     "name" : "PrimeFaces",
     "description" : "PrimeFaces - is the ultimate component suite for JavaServer Faces",
