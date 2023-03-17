@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Pact consumer",
     "description" : "Support for running a pact consumer in Quarkus, including in Quarkus dev mode.",
@@ -1180,14 +1180,18 @@
     },
     "artifact" : "io.quarkiverse.quarkus-zookeeper:quarkus-zookeeper::jar:1.0.3"
   }, {
-    "name" : "Quarkus - Hibernate Types - Runtime",
+    "name" : "Hibernate Types",
     "description" : "Hibernate Types",
     "metadata" : {
-      "built-with-quarkus-core" : "2.15.3.Final",
+      "short-name" : "hibernate-types",
+      "keywords" : [ "hibernate", "types" ],
+      "categories" : [ "data", "integration" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "2.16.4.Final",
       "scm-url" : "https://github.com/quarkiverse/quarkus-hibernate-types",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.hibernatetypes:quarkus-hibernate-types::jar:1.0.1"
+    "artifact" : "io.quarkiverse.hibernatetypes:quarkus-hibernate-types::jar:1.0.2"
   }, {
     "name" : "Doma - Database access framework",
     "description" : "Simplify your database accesses with compile-time code generation",
