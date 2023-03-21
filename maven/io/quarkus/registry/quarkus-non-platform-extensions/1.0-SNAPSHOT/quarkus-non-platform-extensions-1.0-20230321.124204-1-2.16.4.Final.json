@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.4.Final",
   "extensions" : [ {
     "name" : "Pact consumer",
     "description" : "Support for running a pact consumer in Quarkus, including in Quarkus dev mode.",
@@ -1114,6 +1114,16 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource" ]
     },
     "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:2.0.0"
+  }, {
+    "name" : "JNoSQL",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "built-with-quarkus-core" : "3.0.0.Alpha6",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-jnosql",
+      "extension-dependencies" : [ "io.quarkiverse.jnosql:quarkus-jnosql-document", "io.quarkiverse.jnosql:quarkus-jnosql-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-mongodb-client", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny-reactive-streams-operators" ]
+    },
+    "artifact" : "io.quarkiverse.jnosql:quarkus-jnosql-document-mongodb::jar:1.0.0"
   }, {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
