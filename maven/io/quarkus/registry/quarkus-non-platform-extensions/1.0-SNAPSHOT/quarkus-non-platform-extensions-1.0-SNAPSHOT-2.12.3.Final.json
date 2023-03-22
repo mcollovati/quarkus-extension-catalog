@@ -322,7 +322,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-jdbc-sqlite",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:3.0.1"
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:3.0.2"
   }, {
     "name" : "Satoken Oauth2",
     "description" : "Satoken Oauth2 Plugin Of Quarkus Satoken",
