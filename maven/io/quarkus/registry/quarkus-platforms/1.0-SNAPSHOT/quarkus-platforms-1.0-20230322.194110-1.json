@@ -74,9 +74,9 @@
     }, {
       "id" : "3.0",
       "releases" : [ {
-        "version" : "3.0.0.Alpha6",
-        "member-boms" : [ "io.quarkus.platform:quarkus-bom-quarkus-platform-descriptor:3.0.0.Alpha6:json:3.0.0.Alpha6", "io.quarkus.platform:quarkus-qpid-jms-bom-quarkus-platform-descriptor:3.0.0.Alpha6:json:3.0.0.Alpha6", "io.quarkus.platform:quarkus-amazon-services-bom-quarkus-platform-descriptor:3.0.0.Alpha6:json:3.0.0.Alpha6" ],
-        "quarkus-core-version" : "3.0.0.Alpha6"
+        "version" : "3.0.0.Beta1",
+        "member-boms" : [ "io.quarkus.platform:quarkus-bom-quarkus-platform-descriptor:3.0.0.Beta1:json:3.0.0.Beta1", "io.quarkus.platform:quarkus-qpid-jms-bom-quarkus-platform-descriptor:3.0.0.Beta1:json:3.0.0.Beta1", "io.quarkus.platform:quarkus-amazon-services-bom-quarkus-platform-descriptor:3.0.0.Beta1:json:3.0.0.Beta1", "io.quarkus.platform:quarkus-camel-bom-quarkus-platform-descriptor:3.0.0.Beta1:json:3.0.0.Beta1" ],
+        "quarkus-core-version" : "3.0.0.Beta1"
       } ]
     } ]
   } ]
