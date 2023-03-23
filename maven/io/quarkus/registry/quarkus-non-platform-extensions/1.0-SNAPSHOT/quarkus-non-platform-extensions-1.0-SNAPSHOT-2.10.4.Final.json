@@ -1011,12 +1011,12 @@
       "categories" : [ "data" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "2.16.4.Final",
+      "built-with-quarkus-core" : "2.16.5.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-neo4j",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:2.2.4"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:2.2.5"
   }, {
     "name" : "Dashbuilder",
     "description" : "Dashbuilder extension for embedding dashboards in a Quarkus application",
