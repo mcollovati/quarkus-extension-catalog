@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.CR1",
   "extensions" : [ {
     "name" : "Pact consumer",
     "description" : "Support for running a pact consumer in Quarkus, including in Quarkus dev mode.",
@@ -815,11 +815,12 @@
       "keywords" : [ "helm", "kubernetes", "openshift" ],
       "categories" : [ "cloud" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Beta1",
+      "built-with-quarkus-core" : "3.0.0.CR1",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-helm",
-      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.0"
+    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.1"
   }, {
     "name" : "HOCON Config",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1112,12 +1113,12 @@
       "keywords" : [ "jberet-rest" ],
       "categories" : [ "rest" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.CR1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jberet",
       "extension-dependencies" : [ "io.quarkiverse.jberet:quarkus-jberet", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-rest-client-jsonb", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:2.0.0"
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:2.0.1"
   }, {
     "name" : "JBeret - Batch Processing",
     "description" : "Write Batch Applications with JBeret a JSR-352 implementation",
@@ -1127,13 +1128,13 @@
       "guide" : "https://github.com/quarkiverse/quarkus-jberet#readme",
       "categories" : [ "data", "integration" ],
       "status" : "stable",
-      "config" : "quarkus.jberet.",
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "config" : [ "quarkus.jberet." ],
+      "built-with-quarkus-core" : "3.0.0.CR1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jberet",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:2.0.0"
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:2.0.1"
   }, {
     "name" : "JNoSQL",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
