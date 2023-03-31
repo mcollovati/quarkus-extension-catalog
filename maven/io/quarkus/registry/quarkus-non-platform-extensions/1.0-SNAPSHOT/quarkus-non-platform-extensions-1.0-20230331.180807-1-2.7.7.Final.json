@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Pact consumer",
     "description" : "Support for running a pact consumer in Quarkus, including in Quarkus dev mode.",
@@ -460,12 +460,12 @@
       "categories" : [ "web" ],
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-primefaces/dev/",
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.CR1",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-primefaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:3.12.0"
+    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:3.12.2"
   }, {
     "name" : "Tekton Client",
     "description" : "Inject the Tekton client without worrying about the complexity related to handling dependencies.",
@@ -922,12 +922,12 @@
       "icon-url" : "https://poi.apache.org/images/poweredby-poi-logo.png",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha5",
+      "built-with-quarkus-core" : "3.0.0.CR1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.0.Alpha2"
+    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.0.Beta2"
   }, {
     "name" : "GitHub App",
     "description" : "Automate GitHub tasks with a GitHub App",
@@ -1177,12 +1177,12 @@
       "categories" : [ "web" ],
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-omnifaces/dev/",
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.CR1",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-omnifaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.1.1"
+    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.1.2"
   }, {
     "name" : "Ngrok",
     "description" : "Launch and configure ngrok to connect to the Quarkus application when it starts in dev mode",
