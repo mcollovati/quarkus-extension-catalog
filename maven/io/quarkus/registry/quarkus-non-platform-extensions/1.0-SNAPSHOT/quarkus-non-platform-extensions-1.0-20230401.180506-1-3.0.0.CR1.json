@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.CR1",
   "extensions" : [ {
     "name" : "Pact consumer",
     "description" : "Support for running a pact consumer in Quarkus, including in Quarkus dev mode.",
@@ -1052,12 +1052,12 @@
       "keywords" : [ "shardingsphere-jdbc", "jdbc" ],
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.16.2.Final",
+      "built-with-quarkus-core" : "3.0.0.CR1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-shardingsphere-jdbc",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.shardingsphere:quarkus-shardingsphere-jdbc::jar:1.0.1"
+    "artifact" : "io.quarkiverse.shardingsphere:quarkus-shardingsphere-jdbc::jar:2.0.0.CR2"
   }, {
     "name" : "Quarkus Freemarker",
     "description" : "Freemarker support",
