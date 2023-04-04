@@ -1018,7 +1018,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-neo4j",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:2.2.5"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:2.2.6"
   }, {
     "name" : "Dashbuilder",
     "description" : "Dashbuilder extension for embedding dashboards in a Quarkus application",
