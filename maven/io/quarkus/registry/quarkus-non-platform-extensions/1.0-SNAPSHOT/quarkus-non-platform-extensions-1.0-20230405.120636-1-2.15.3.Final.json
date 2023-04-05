@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
   "extensions" : [ {
     "name" : "Pact consumer",
     "description" : "Support for running a pact consumer in Quarkus, including in Quarkus dev mode.",
@@ -318,11 +318,12 @@
       "categories" : [ "data" ],
       "status" : "stable",
       "description" : "Connect to the Sqlite database via JDBC/DataSource/Hibernate",
-      "built-with-quarkus-core" : "3.0.0.Alpha6",
+      "built-with-quarkus-core" : "3.0.0.Beta1",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jdbc-sqlite",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:3.0.2"
+    "artifact" : "io.quarkiverse.jdbc:quarkus-jdbc-sqlite::jar:3.0.3"
   }, {
     "name" : "Satoken Oauth2",
     "description" : "Satoken Oauth2 Plugin Of Quarkus Satoken",
