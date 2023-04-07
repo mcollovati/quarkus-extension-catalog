@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -653,18 +653,16 @@
     "artifact" : "io.quarkiverse.mavenresolver:quarkus-maven-resolver::jar:0.0.3"
   }, {
     "name" : "Quarkus - Operator SDK",
-    "description" : "Quarkus extension easing the development of Kubernetes operators using the Java Operator SDK (https://javaoperatorsdk.io)",
+    "description" : "Quarkus extension for the Java Operator SDK (https://javaoperatorsdk.io)",
     "metadata" : {
       "keywords" : [ "operator", "kubernetes", "openshift" ],
-      "categories" : [ "cloud", "kubernetes" ],
-      "status" : "stable",
-      "icon-url" : "https://avatars.githubusercontent.com/u/72702069?s=400&u=5909e0ba12991a5fcfe17c67ed4d46f84695d670&v=4",
-      "built-with-quarkus-core" : "2.16.5.Final",
+      "categories" : [ "cloud" ],
+      "built-with-quarkus-core" : "3.0.0.CR1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-operator-sdk",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:5.1.3"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:6.0.0.CR1"
   }, {
     "name" : "Splunk logging extension - Runtime",
     "description" : "Send logs to a Splunk HTTP Event Collector (HEC)",
@@ -1127,19 +1125,15 @@
     },
     "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-datadog::jar:2.12.0"
   }, {
-    "name" : "Quarkus - Operator SDK - OLM Bundle Generator",
-    "description" : "OLM Bundle Generation for Java Operator SDK operators (https://javaoperatorsdk.io)",
+    "name" : "Quarkus - Operator SDK - Bundle Generator",
+    "description" : "Bundle Generation for Java Operator SDK operators",
     "metadata" : {
-      "keywords" : [ "operator", "kubernetes", "openshift", "olm", "csv", "bundle" ],
-      "categories" : [ "cloud", "kubernetes" ],
-      "status" : "stable",
-      "icon-url" : "https://avatars.githubusercontent.com/u/72702069?s=400&u=5909e0ba12991a5fcfe17c67ed4d46f84695d670&v=4",
-      "built-with-quarkus-core" : "2.16.5.Final",
+      "built-with-quarkus-core" : "3.0.0.CR1",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-operator-sdk",
-      "extension-dependencies" : [ "io.quarkiverse.operatorsdk:quarkus-operator-sdk", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image" ]
+      "extension-dependencies" : [ "io.quarkiverse.operatorsdk:quarkus-operator-sdk", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:5.1.3"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:6.0.0.CR1"
   }, {
     "name" : "File Vault",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
