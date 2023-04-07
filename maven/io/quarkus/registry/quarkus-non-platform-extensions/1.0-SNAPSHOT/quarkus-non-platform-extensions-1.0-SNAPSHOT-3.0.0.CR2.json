@@ -564,6 +564,21 @@
     },
     "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:2.0.0.Alpha2"
   }, {
+    "name" : "iText",
+    "description" : "Create and manipulate PDFs on the fly",
+    "metadata" : {
+      "keywords" : [ "itext", "pdf", "parser", "document", "writer" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/itext/dev/",
+      "icon-url" : "https://commons.wikimedia.org/wiki/File:PDF_file_icon.svg",
+      "categories" : [ "miscellaneous" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "17",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-itext",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
+    },
+    "artifact" : "io.quarkiverse.itext:quarkus-itext::jar:3.0.0"
+  }, {
     "name" : "Consul Config",
     "description" : "Read runtime configuration from Consul Key - Value store",
     "metadata" : {

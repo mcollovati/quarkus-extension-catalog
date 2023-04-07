@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -563,6 +563,21 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
     "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:2.0.0.Alpha2"
+  }, {
+    "name" : "iText",
+    "description" : "Create and manipulate PDFs on the fly",
+    "metadata" : {
+      "keywords" : [ "itext", "pdf", "parser", "document", "writer" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/itext/dev/",
+      "icon-url" : "https://commons.wikimedia.org/wiki/File:PDF_file_icon.svg",
+      "categories" : [ "miscellaneous" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "17",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-itext",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
+    },
+    "artifact" : "io.quarkiverse.itext:quarkus-itext::jar:3.0.0"
   }, {
     "name" : "Consul Config",
     "description" : "Read runtime configuration from Consul Key - Value store",
