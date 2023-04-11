@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -167,7 +167,7 @@
       "categories" : [ "business-automation" ],
       "status" : "preview"
     },
-    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.18.0"
+    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.19.0"
   }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
