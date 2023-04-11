@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -568,7 +568,7 @@
     "description" : "Create and manipulate PDFs on the fly",
     "metadata" : {
       "keywords" : [ "itext", "pdf", "parser", "document", "writer" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/itext/dev/",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-itext/dev/",
       "icon-url" : "https://commons.wikimedia.org/wiki/File:PDF_file_icon.svg",
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
@@ -577,7 +577,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-itext",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.itext:quarkus-itext::jar:3.0.1"
+    "artifact" : "io.quarkiverse.itext:quarkus-itext::jar:3.0.2"
   }, {
     "name" : "Consul Config",
     "description" : "Read runtime configuration from Consul Key - Value store",
@@ -1218,12 +1218,12 @@
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
     "metadata" : {
-      "built-with-quarkus-core" : "2.16.5.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jooq",
       "extension-dependencies" : [ "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-core", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.jooq:quarkus-jooq::jar:0.4.1"
+    "artifact" : "io.quarkiverse.jooq:quarkus-jooq::jar:2.0.0.Alpha1"
   }, {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
