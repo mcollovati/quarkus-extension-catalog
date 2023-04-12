@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -73,10 +73,12 @@
       "keywords" : [ "santuario", "security", "xml", "xmlsec" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.13.0.Final",
+      "built-with-quarkus-core" : "3.0.0.CR1",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-xmlsec",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jaxp" ]
     },
-    "artifact" : "io.quarkiverse.xmlsec:quarkus-xmlsec::jar:1.1.1"
+    "artifact" : "io.quarkiverse.xmlsec:quarkus-xmlsec::jar:2.0.0.Alpha4"
   }, {
     "name" : "Satoken Dao Redis Jackson",
     "description" : "Satoken Dao Redis Jackson Plugin Of Quarkus Satoken",
@@ -144,12 +146,12 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-github-app",
       "extension-dependencies" : [ "io.quarkiverse.githubapp:quarkus-github-app", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app-command-airline::jar:2.0.0.Alpha2"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app-command-airline::jar:2.0.0"
   }, {
     "name" : "Quarkus Satoken Dao Alone Redis",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -201,11 +203,12 @@
       "guide" : "https://github-api.kohsuke.org/",
       "categories" : [ "business-automation" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.16.3.Final",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-github-api",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.314.0"
+    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.314.1"
   }, {
     "name" : "APIstax",
     "description" : "Secure and reliable APIs for your common business needs. Produce PDFs from HTML. Generate EU payment QR codes. Verify VAT numbers of european companies. Geocoding and reverse geocoding.",
@@ -229,11 +232,12 @@
       "keywords" : [ "jsch" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jsch/dev/index.html",
       "categories" : [ "miscellaneous" ],
-      "built-with-quarkus-core" : "2.16.0.Final",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jsch",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:2.0.4"
+    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:3.0.0"
   }, {
     "name" : "OmniFaces",
     "description" : "OmniFaces - is a Faces / JSF utility library to make life easier!",
@@ -243,12 +247,12 @@
       "categories" : [ "web" ],
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-omnifaces/dev/",
-      "built-with-quarkus-core" : "3.0.0.CR1",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-omnifaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.1.2"
+    "artifact" : "io.quarkiverse.omnifaces:quarkus-omnifaces::jar:4.1.3"
   }, {
     "name" : "Quarkus CXF Transports HTTP Async",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -378,11 +382,12 @@
       "categories" : [ "miscellaneous" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jgit/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.16.0.Final",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-jgit",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.jsch:quarkus-jsch" ]
     },
-    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:2.3.2"
+    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:3.0.0"
   }, {
     "name" : "Quarkus - Helm",
     "description" : "Quarkus extension for Helm",
@@ -390,12 +395,12 @@
       "keywords" : [ "helm", "kubernetes", "openshift" ],
       "categories" : [ "cloud" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-helm",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.3"
+    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.4"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
@@ -519,11 +524,12 @@
       "keywords" : [ "http-connector", "http", "websockets" ],
       "categories" : [ "web", "reactive", "messaging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-reactive-messaging-http",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-reactive-messaging", "io.quarkus:quarkus-mutiny-reactive-streams-operators", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx-http" ]
     },
-    "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:2.0.0.Alpha"
+    "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:2.0.1"
   }, {
     "name" : "Satoken Oauth2",
     "description" : "Satoken Oauth2 Plugin Of Quarkus Satoken",
@@ -557,12 +563,12 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-github-app",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-stork", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:2.0.0.Alpha2"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:2.0.0"
   }, {
     "name" : "iText",
     "description" : "Create and manipulate PDFs on the fly",
@@ -625,12 +631,12 @@
       "categories" : [ "web" ],
       "status" : "stable",
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-primefaces/dev/",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "17",
       "scm-url" : "https://github.com/quarkiverse/quarkus-primefaces",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client", "io.quarkus:quarkus-jsonp", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt", "io.quarkiverse.itext:quarkus-itext" ]
     },
-    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:3.12.3"
+    "artifact" : "io.quarkiverse.primefaces:quarkus-primefaces::jar:3.12.4"
   }, {
     "name" : "Quarkus Freemarker",
     "description" : "Freemarker support",
@@ -748,10 +754,26 @@
       "categories" : [ "cloud" ],
       "guide" : "https://quarkus.io/guides/amazon-lambda",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.12.2.Final",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-amazon-alexa",
       "extension-dependencies" : [ "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.amazonalexa:quarkus-amazon-alexa::jar:1.0.5"
+    "artifact" : "io.quarkiverse.amazonalexa:quarkus-amazon-alexa::jar:2.0.0"
+  }, {
+    "name" : "Systemd Notify",
+    "description" : "Notify Linux service manager (systemd) about start-up completion and other service status changes",
+    "metadata" : {
+      "keywords" : [ "systemd", "notify", "linux", "deployment", "service" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-systemd-notify/dev/",
+      "categories" : [ "integration" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-systemd-notify",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:1.0.0"
   }, {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -842,12 +864,12 @@
       "icon-url" : "https://poi.apache.org/images/poweredby-poi-logo.png",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.CR1",
+      "built-with-quarkus-core" : "3.0.0.CR2",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.0.Beta2"
+    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.0"
   }, {
     "name" : "Micrometer registry - Azure Monitor",
     "description" : "Send data gathered by Micrometer to Azure Monitor",
@@ -967,14 +989,14 @@
       "codestart" : {
         "name" : "quinoa",
         "languages" : [ "java", "kotlin", "scala" ],
-        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:2.0.2"
+        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:2.0.3"
       },
-      "built-with-quarkus-core" : "3.0.0.CR1",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-quinoa",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:2.0.2"
+    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:2.0.3"
   }, {
     "name" : "JNoSQL",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1100,10 +1122,12 @@
     "metadata" : {
       "keywords" : [ "opencv", "ai", "computer vision" ],
       "categories" : [ "business-automation" ],
-      "built-with-quarkus-core" : "2.12.0.Final",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-opencv",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.opencv:quarkus-opencv::jar:1.1.1"
+    "artifact" : "io.quarkiverse.opencv:quarkus-opencv::jar:2.0.0"
   }, {
     "name" : "Tekton Client",
     "description" : "Inject the Tekton client without worrying about the complexity related to handling dependencies.",
@@ -1151,17 +1175,19 @@
     },
     "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:6.0.0.CR1"
   }, {
-    "name" : "File Vault",
-    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "name" : "File Vault Credentials Provider",
+    "description" : "Credentials Provider which extracts secrets from Java KeyStore",
     "metadata" : {
       "keywords" : [ "vault", "keystore", "secret", "password" ],
       "categories" : [ "security" ],
       "status" : "preview",
       "config" : [ "quarkus.file.vault." ],
-      "built-with-quarkus-core" : "2.10.2.Final",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-file-vault",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.file-vault:quarkus-file-vault::jar:1.0.0"
+    "artifact" : "io.quarkiverse.file-vault:quarkus-file-vault::jar:2.0.0"
   }, {
     "name" : "Scala3",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1189,11 +1215,12 @@
       "keywords" : [ "ngrok", "public" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.15.1.Final",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-ngrok",
       "extension-dependencies" : [ "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.ngrok:quarkus-ngrok::jar:0.3.0"
+    "artifact" : "io.quarkiverse.ngrok:quarkus-ngrok::jar:1.0.0"
   }, {
     "name" : "Doma - Database access framework",
     "description" : "Simplify your database accesses with compile-time code generation",
