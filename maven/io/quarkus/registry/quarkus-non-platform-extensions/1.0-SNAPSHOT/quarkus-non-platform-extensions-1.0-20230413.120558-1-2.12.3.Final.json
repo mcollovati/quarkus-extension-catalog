@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.6.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.6.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -122,11 +122,12 @@
       "keywords" : [ "config", "configuration", "jdbc", "agroal" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-jdbc::jar:2.0.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-jdbc::jar:2.0.1"
   }, {
     "name" : "JGraphT",
     "description" : "JGraphT - a Java library of graph theory data structures and algorithms",
@@ -501,11 +502,12 @@
     "metadata" : {
       "keywords" : [ "config", "configuration", "hocon" ],
       "categories" : [ "core" ],
-      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-hocon::jar:2.0.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-hocon::jar:2.0.1"
   }, {
     "name" : "Dashbuilder",
     "description" : "Dashbuilder extension for embedding dashboards in a Quarkus application",
@@ -595,11 +597,12 @@
       "categories" : [ "core" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-config-extensions/dev/consul.html",
       "config" : [ "quarkus.consul-config." ],
-      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-config-extensions",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.config:quarkus-config-consul::jar:2.0.0"
+    "artifact" : "io.quarkiverse.config:quarkus-config-consul::jar:2.0.1"
   }, {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -735,11 +738,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-hibernate-search-extras/dev/index.html#aws-integration",
       "status" : "stable",
       "config" : [ "quarkus.hibernate-search-orm." ],
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-hibernate-search-extras",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-hibernate-search-orm-elasticsearch", "io.quarkus:quarkus-elasticsearch-rest-client-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.amazonservices:quarkus-amazon-common", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.hibernatesearchextras:quarkus-hibernate-search-orm-elasticsearch-aws::jar:2.0.0.Alpha1"
+    "artifact" : "io.quarkiverse.hibernatesearchextras:quarkus-hibernate-search-orm-elasticsearch-aws::jar:2.0.0"
   }, {
     "name" : "AsyncAPI",
     "description" : "AsyncAPI configuration and metadata generator",
