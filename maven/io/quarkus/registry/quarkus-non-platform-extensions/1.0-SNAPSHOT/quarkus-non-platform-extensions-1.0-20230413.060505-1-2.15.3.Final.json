@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.15.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.15.3.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -604,14 +604,16 @@
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
     "metadata" : {
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-prettytime/dev/index.html",
       "keywords" : [ "prettytime" ],
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-prettytime",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:2.0.0.Alpha3"
+    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:2.0.0"
   }, {
     "name" : "Quarkus CXF WS-Security",
     "description" : "Consume and produce web services with Web Services Security (WS-Security, WSS)",
