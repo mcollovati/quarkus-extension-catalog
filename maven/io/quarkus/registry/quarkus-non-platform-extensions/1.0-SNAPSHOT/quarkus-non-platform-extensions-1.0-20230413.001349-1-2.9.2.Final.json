@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.7.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.7.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.2.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -109,11 +109,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.15.3.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:1.7.3"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-rm::jar:2.0.0.CR1"
   }, {
     "name" : "Config JDBC",
     "description" : "Consume your configuration from a JDBC datastore",
@@ -262,11 +263,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
       "status" : "stable",
       "unlisted" : true,
-      "built-with-quarkus-core" : "2.15.3.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:1.7.3"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5::jar:2.0.0.CR1"
   }, {
     "name" : "Logging JSON Jackson",
     "description" : "Logging in JSON with support for custom fields",
@@ -356,11 +358,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.15.3.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:1.7.3"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-services-sts::jar:2.0.0.CR1"
   }, {
     "name" : "Pact Provider",
     "description" : "Support for running a pact provider in Quarkus, including in Quarkus dev mode.",
@@ -400,7 +403,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-helm",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.4"
+    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:1.0.5"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
@@ -617,11 +620,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.15.3.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-core", "io.quarkiverse.xmlsec:quarkus-xmlsec" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:1.7.3"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security::jar:2.0.0.CR1"
   }, {
     "name" : "PrimeFaces",
     "description" : "PrimeFaces - is the ultimate component suite for JavaServer Faces",
@@ -700,11 +704,12 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.15.3.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkiverse.cxf:quarkus-cxf", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:1.7.3"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-logging::jar:2.0.0.CR1"
   }, {
     "name" : "Artemis JMS",
     "description" : "Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
@@ -775,18 +780,15 @@
     },
     "artifact" : "io.quarkiverse.systemd.notify:quarkus-systemd-notify::jar:1.0.0"
   }, {
-    "name" : "Quarkus CXF",
+    "name" : "Quarkus CXF - Core",
     "description" : "Consume and produce SOAP web services with Apache CXF",
     "metadata" : {
-      "keywords" : [ "cxf", "jaxws", "jax-ws", "services", "soap" ],
-      "categories" : [ "integration" ],
-      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
-      "status" : "stable",
-      "built-with-quarkus-core" : "2.15.3.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.cxf:quarkus-cxf-saaj", "io.quarkiverse.cxf:quarkus-cxf-woodstox", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:1.7.3"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:2.0.0.CR1"
   }, {
     "name" : "Hibernate Types",
     "description" : "Hibernate Types",
@@ -931,7 +933,7 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-tika/dev/index.html",
       "status" : "stable",
       "config" : [ "quarkus.tika." ],
-      "built-with-quarkus-core" : "3.0.0.CR1",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "11",
       "capabilities" : {
         "provides" : [ "io.quarkus.tika" ]
@@ -939,7 +941,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-tika",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.poi:quarkus-poi", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:2.0.0.CR1"
+    "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:2.0.0"
   }, {
     "name" : "Zookeeper",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1055,7 +1057,7 @@
       "keywords" : [ "jackson-jq", "jackson", "jq" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha4",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "11",
       "capabilities" : {
         "provides" : [ "io.quarkiverse.jackson.jq" ]
@@ -1063,7 +1065,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-jackson-jq",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.jackson-jq:quarkus-jackson-jq::jar:2.0.0.Alpha"
+    "artifact" : "io.quarkiverse.jackson-jq:quarkus-jackson-jq::jar:2.0.1"
   }, {
     "name" : "QSON",
     "description" : "JSON object mapper",
@@ -1098,11 +1100,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
       "status" : "stable",
       "unlisted" : true,
-      "built-with-quarkus-core" : "2.15.3.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-cxf",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:1.7.3"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics::jar:2.0.0.CR1"
   }, {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
