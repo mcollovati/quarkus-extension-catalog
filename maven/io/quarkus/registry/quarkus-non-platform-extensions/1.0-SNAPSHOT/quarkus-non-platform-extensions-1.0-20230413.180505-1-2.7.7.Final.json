@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.16.6.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.16.6.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -872,12 +872,12 @@
       "icon-url" : "https://poi.apache.org/images/poweredby-poi-logo.png",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-poi",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt" ]
     },
-    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.0"
+    "artifact" : "io.quarkiverse.poi:quarkus-poi::jar:2.0.1"
   }, {
     "name" : "Micrometer registry - Azure Monitor",
     "description" : "Send data gathered by Micrometer to Azure Monitor",
