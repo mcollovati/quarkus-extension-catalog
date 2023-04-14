@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.11.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.11.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.CR2:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.CR2",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -467,11 +467,12 @@
       "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
       "categories" : [ "web" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha5",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-openapi-generator",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.2.1"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:2.2.2"
   }, {
     "name" : "JDBC Driver - Clickhouse",
     "description" : "Connect to the ClickHouse database via JDBC",
