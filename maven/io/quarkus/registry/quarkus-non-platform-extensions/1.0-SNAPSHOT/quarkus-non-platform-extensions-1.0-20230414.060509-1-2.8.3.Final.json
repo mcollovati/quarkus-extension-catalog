@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.CR2:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.CR2",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -346,11 +346,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mybatis/dev/index.html",
       "categories" : [ "data" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-mybatis",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:2.0.0.CR1"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:2.0.0"
   }, {
     "name" : "Quarkus CXF STS",
     "description" : "The CXF Security Token Service (STS) implementation",
@@ -555,11 +556,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-mybatis/dev/",
       "categories" : [ "data" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-mybatis",
       "extension-dependencies" : [ "io.quarkiverse.mybatis:quarkus-mybatis", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:2.0.0.CR1"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:2.0.0"
   }, {
     "name" : "GitHub App",
     "description" : "Automate GitHub tasks with a GitHub App",
