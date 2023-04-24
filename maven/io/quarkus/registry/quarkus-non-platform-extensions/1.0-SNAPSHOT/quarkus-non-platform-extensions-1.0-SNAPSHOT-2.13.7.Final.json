@@ -67,6 +67,20 @@
     },
     "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.10.3"
   }, {
+    "name" : "Bucket4j",
+    "description" : "Control the request rate sent to your application",
+    "metadata" : {
+      "keywords" : [ "bucket4j", "rate-limiting", "rate-limiter", "limiter", "throttler" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-bucket4j/dev/index.html",
+      "categories" : [ "security" ],
+      "status" : "experimental",
+      "built-with-quarkus-core" : "3.0.0.Final",
+      "minimum-java-version" : "11",
+      "scm-url" : "https://github.com/quarkiverse/quarkus-bucket4j",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-cache", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
+    },
+    "artifact" : "io.quarkiverse.bucket4j:quarkus-bucket4j::jar:1.0.0.Alpha2"
+  }, {
     "name" : "Santuario XML Security",
     "description" : "Native support for Apache Santuario xmlsec library",
     "metadata" : {
