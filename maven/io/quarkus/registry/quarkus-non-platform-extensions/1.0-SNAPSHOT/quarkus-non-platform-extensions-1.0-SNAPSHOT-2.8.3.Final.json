@@ -557,12 +557,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-dashbuilder/dev/index.html",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Alpha5",
+      "built-with-quarkus-core" : "3.0.0.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-dashbuilder",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.dashbuilder:quarkus-dashbuilder::jar:0.27.0"
+    "artifact" : "io.quarkiverse.dashbuilder:quarkus-dashbuilder::jar:0.27.1"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
