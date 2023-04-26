@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:3.0.0.CR2:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:3.0.0.CR2",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -766,7 +766,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-operator-sdk",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:6.0.0"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:6.0.1"
   }, {
     "name" : "Splunk logging extension - Runtime",
     "description" : "Send logs to a Splunk HTTP Event Collector (HEC)",
@@ -1191,12 +1191,12 @@
       "categories" : [ "feature management" ],
       "status" : "preview",
       "config" : [ "quarkus.unleash." ],
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-unleash",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.unleash:quarkus-unleash::jar:1.0.0"
+    "artifact" : "io.quarkiverse.unleash:quarkus-unleash::jar:1.0.1"
   }, {
     "name" : "Quarkus CXF Metrics",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -1286,7 +1286,7 @@
       "scm-url" : "https://github.com/quarkiverse/quarkus-operator-sdk",
       "extension-dependencies" : [ "io.quarkiverse.operatorsdk:quarkus-operator-sdk", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:6.0.0"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:6.0.1"
   }, {
     "name" : "File Vault Credentials Provider",
     "description" : "Credentials Provider which extracts secrets from Java KeyStore",
