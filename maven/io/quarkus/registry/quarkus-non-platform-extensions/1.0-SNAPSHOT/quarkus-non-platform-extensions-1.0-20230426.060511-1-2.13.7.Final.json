@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.14.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.14.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.13.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.13.7.Final",
   "extensions" : [ {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -313,12 +313,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-openfga-client/dev/",
       "categories" : [ "authorization", "security" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-openfga-client",
       "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-core", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.openfga:quarkus-openfga-client::jar:1.0.0"
+    "artifact" : "io.quarkiverse.openfga:quarkus-openfga-client::jar:1.0.1"
   }, {
     "name" : "Quarkus - HiveMQ Client",
     "description" : "Quarkus - Hivemq Client Implementation of MQQ Messaging",
@@ -668,12 +668,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-zanzibar/dev/",
       "categories" : [ "authorization", "security" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-zanzibar",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-caffeine" ]
     },
-    "artifact" : "io.quarkiverse.zanzibar:quarkus-zanzibar::jar:1.0.0"
+    "artifact" : "io.quarkiverse.zanzibar:quarkus-zanzibar::jar:1.0.1"
   }, {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -1149,12 +1149,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-zanzibar/dev/",
       "categories" : [ "authorization", "security" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-zanzibar",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.zanzibar:quarkus-zanzibar", "io.quarkus:quarkus-caffeine", "io.quarkiverse.openfga:quarkus-openfga-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.zanzibar:quarkus-zanzibar-openfga::jar:1.0.0"
+    "artifact" : "io.quarkiverse.zanzibar:quarkus-zanzibar-openfga::jar:1.0.1"
   }, {
     "name" : "Jackson Jq",
     "description" : "Provide jq expressions support to Quarkus applications",
@@ -1366,12 +1366,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-zanzibar/dev/",
       "categories" : [ "authorization", "security" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-zanzibar",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.zanzibar:quarkus-zanzibar", "io.quarkus:quarkus-caffeine", "io.quarkiverse.authzed:quarkus-authzed-client", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-grpc", "io.quarkus:quarkus-grpc-common", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-smallrye-stork", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.zanzibar:quarkus-zanzibar-authzed::jar:1.0.0"
+    "artifact" : "io.quarkiverse.zanzibar:quarkus-zanzibar-authzed::jar:1.0.1"
   }, {
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
