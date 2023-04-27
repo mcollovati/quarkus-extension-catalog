@@ -502,12 +502,12 @@
       "guide" : "https://github.com/quarkiverse/quarkus-lucene",
       "categories" : [ "search" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-lucene",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.lucene:quarkus-lucene::jar:1.1"
+    "artifact" : "io.quarkiverse.lucene:quarkus-lucene::jar:2"
   }, {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
