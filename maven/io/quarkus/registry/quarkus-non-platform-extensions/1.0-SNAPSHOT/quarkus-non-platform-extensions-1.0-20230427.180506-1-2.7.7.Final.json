@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.7.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.7.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -632,11 +632,12 @@
       "keywords" : [ "hibernate", "types" ],
       "categories" : [ "data", "integration" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.16.4.Final",
+      "built-with-quarkus-core" : "3.0.0.CR2",
+      "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-hibernate-types",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.hibernatetypes:quarkus-hibernate-types::jar:1.0.2"
+    "artifact" : "io.quarkiverse.hibernatetypes:quarkus-hibernate-types::jar:2.0.0"
   }, {
     "name" : "Satoken Sso",
     "description" : "Satoken Sso Plugin Of Quarkus Satoken",
@@ -1284,12 +1285,12 @@
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-pooled-jms/dev/index.html",
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "3.0.0.Final",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-pooled-jms",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.messaginghub:quarkus-pooled-jms::jar:2.0.0"
+    "artifact" : "io.quarkiverse.messaginghub:quarkus-pooled-jms::jar:2.0.1"
   }, {
     "name" : "Pact Provider",
     "description" : "Support for running a pact provider in Quarkus, including in Quarkus dev mode.",
