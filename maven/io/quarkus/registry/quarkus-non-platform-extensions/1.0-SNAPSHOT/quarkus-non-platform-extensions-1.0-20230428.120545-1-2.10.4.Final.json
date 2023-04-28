@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.12.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.12.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.10.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.10.4.Final",
   "extensions" : [ {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
@@ -408,12 +408,12 @@
       "guide" : "https://quarkus.io/guides/micrometer",
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-micrometer-registry",
       "extension-dependencies" : [ "io.quarkus:quarkus-micrometer", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-signalfx::jar:3.0.0"
+    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-signalfx::jar:3.0.1"
   }, {
     "name" : "OpenAPI Generator - REST Client Generator",
     "description" : "Generation of Rest Clients based on OpenAPI specification files",
@@ -464,12 +464,12 @@
       "guide" : "https://quarkus.io/guides/micrometer",
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-micrometer-registry",
       "extension-dependencies" : [ "io.quarkus:quarkus-micrometer", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-datadog::jar:3.0.0"
+    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-datadog::jar:3.0.1"
   }, {
     "name" : "Maven Resolver",
     "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
@@ -516,12 +516,12 @@
       "guide" : "https://quarkus.io/guides/micrometer",
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-micrometer-registry",
       "extension-dependencies" : [ "io.quarkus:quarkus-micrometer", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-stackdriver::jar:3.0.0"
+    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-stackdriver::jar:3.0.1"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
@@ -673,12 +673,12 @@
       "guide" : "https://quarkus.io/guides/micrometer",
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-micrometer-registry",
       "extension-dependencies" : [ "io.quarkus:quarkus-micrometer", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-jmx::jar:3.0.0"
+    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-jmx::jar:3.0.1"
   }, {
     "name" : "Micrometer registry - Azure Monitor",
     "description" : "Send data gathered by Micrometer to Azure Monitor",
@@ -687,12 +687,12 @@
       "guide" : "https://quarkus.io/guides/micrometer",
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-micrometer-registry",
       "extension-dependencies" : [ "io.quarkus:quarkus-micrometer", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-azure-monitor::jar:3.0.0"
+    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-azure-monitor::jar:3.0.1"
   }, {
     "name" : "Unleash",
     "description" : "Unleash is a feature toggle system",
@@ -1312,12 +1312,12 @@
       "guide" : "https://quarkus.io/guides/micrometer",
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "3.0.0.CR2",
+      "built-with-quarkus-core" : "3.0.1.Final",
       "minimum-java-version" : "11",
       "scm-url" : "https://github.com/quarkiverse/quarkus-micrometer-registry",
       "extension-dependencies" : [ "io.quarkus:quarkus-micrometer", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-statsd::jar:3.0.0"
+    "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-statsd::jar:3.0.1"
   }, {
     "name" : "Logging JSON Jackson",
     "description" : "Logging in JSON with support for custom fields",
