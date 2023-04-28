@@ -1113,6 +1113,17 @@
     },
     "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:6.0.1"
   }, {
+    "name" : "Vaadin Flow",
+    "description" : "Vaadin Flow is a unique framework that lets you build web apps without writing HTML or JavaScript",
+    "metadata" : {
+      "keywords" : [ "vaadin", "flow" ],
+      "categories" : [ "web" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "3.0.0.Alpha3",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-websockets", "io.quarkus:quarkus-websockets-client" ]
+    },
+    "artifact" : "com.vaadin:vaadin-quarkus::jar:2.0.0"
+  }, {
     "name" : "JBeret - Batch Processing",
     "description" : "Write Batch Applications with JBeret a JSR-352 implementation",
     "metadata" : {
